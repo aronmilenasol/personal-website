@@ -1,7 +1,9 @@
 {
-  "welcome": "Welcome to my website!",
-  "name": "I'm Milena Sol Aron",
-  "description": "Software Developer & Founder of CarreraIT",
+  "Homepage": {
+    "welcome": "Welcome to my website!",
+    "name": "I'm Milena Sol Aron",
+    "description": "Software Developer & Founder of CarreraIT"
+  },
   "about": "About",
   "resume": "Resume",
   "title": "About Me",
