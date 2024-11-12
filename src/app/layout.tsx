@@ -3,9 +3,9 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 
 const lato = Lato({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: ["100", "300", "400", "700", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Milena Sol Aron",
@@ -19,11 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${lato.className} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${lato.className} antialiased`}>{children}</body>
     </html>
   );
 }
