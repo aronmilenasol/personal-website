@@ -4,14 +4,16 @@
     "name": "Soy Milena Sol Aron",
     "description": "Desarrolladora de software y fundadora de CarreraIT"
   },
+  "About": {
+    "title": "Sobre mí",
+    "introduction": "Soy Milena Sol Aron, una desarrolladora de software de Argentina. Estoy trabajando en el rubro desde junio de 2023.",
+    "website": "Este sitio web es un espacio para escribir artículos relacionados con mi carrera y también como un portafolio para mostrar mis proyectos personales.",
+    "education": "Comencé mis estudios de manera autodidacta. En mayo de 2024, empecé a estudiar una Tecnicatura en Programación en la Universidad Tecnológica Nacional.",
+    "carrerait": "Mi pasión por el rubro me llevó a crear y desarrollar CarreraIT, una plataforma para personas de países hispanohablantes que quieren trabajar en IT o que ya lo hacen. Ofrece encuestas, recursos gratuitos y guías de orientación.",
+    "studying": "Actualmente estoy estudiando AWS Cloud y arquitectura de software."
+  },
   "about": "Sobre mí",
   "resume": "CV",
-  "title": "Sobre mí",
-  "introduction": "Soy Milena Sol Aron, una desarrolladora de software de Argentina. Estoy trabajando en el rubro desde junio de 2023.",
-  "website": "Este sitio web es un espacio para escribir artículos relacionados con mi carrera y también como un portafolio para mostrar mis proyectos personales.",
-  "education": "Comencé mis estudios de manera autodidacta. En mayo de 2024, empecé a estudiar una Tecnicatura en Programación en la Universidad Tecnológica Nacional.",
-  "carrerait": "Mi pasión por el rubro me llevó a crear y desarrollar CarreraIT, una plataforma para personas de países hispanohablantes que quieren trabajar en IT o que ya lo hacen. Ofrece encuestas, recursos gratuitos y guías de orientación.",
-  "studying": "Actualmente estoy estudiando AWS Cloud y arquitectura de software.",
   "resume-title": "CV",
   "about-title": "Sobre mí",
   "about-1": "Desarrolladora de Software con más de un año de experiencia laboral en el rubro.",

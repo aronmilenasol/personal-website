@@ -4,14 +4,16 @@
     "name": "I'm Milena Sol Aron",
     "description": "Software Developer & Founder of CarreraIT"
   },
+  "About": {
+    "introduction": "I'm Milena Sol Aron, a Software Developer from Argentina. I have been working in this field since June 2023.",
+    "website": "This website serves as a place to write articles about the tech industry and also as a portfolio to showcase my personal projects.",
+    "education": "I started my IT journey as a self-taught learner. In May 2024, I began pursuing an Associate's Degree in Programming at Universidad Tecnológica Nacional.",
+    "carrerait": "My passion for the field led me to create and develop CarreraIT, a platform for people from Hispanic countries who want to work in tech or who already do. It provides surveys, free resources and orientation guides.",
+    "studying": "I'm currently studying AWS Cloud and software architecture."
+  },
   "about": "About",
   "resume": "Resume",
   "title": "About Me",
-  "introduction": "I'm Milena Sol Aron, a Software Developer from Argentina. I have been working in this field since June 2023.",
-  "website": "This website serves as a place to write articles about the tech industry and also as a portfolio to showcase my personal projects.",
-  "education": "I started my IT journey as a self-taught learner. In May 2024, I began pursuing an Associate's Degree in Programming at Universidad Tecnológica Nacional.",
-  "carrerait": "My passion for the field led me to create and develop CarreraIT, a platform for people from Hispanic countries who want to work in tech or who already do. It provides surveys, free resources and orientation guides.",
-  "studying": "I'm currently studying AWS Cloud and software architecture.",
   "resume-title": "My Resume",
   "about-title": "About me",
   "about-1": "I’m a Software and Web Developer with over a year of work experience in the field.",
