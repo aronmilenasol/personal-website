@@ -14,6 +14,7 @@
   },
   "about": "Sobre mí",
   "resume": "CV",
+  "Resume": {
   "resume-title": "CV",
   "about-title": "Sobre mí",
   "about-1": "Desarrolladora de Software con más de un año de experiencia laboral en el rubro.",
@@ -51,4 +52,5 @@
   "languages-title": "Idiomas",
   "english": "Inglés: C2",
   "spanish": "Español: Nativo"
+  }
 }
