@@ -12,8 +12,10 @@
     "carrerait": "Mi pasión por el rubro me llevó a crear y desarrollar CarreraIT, una plataforma para personas de países hispanohablantes que quieren trabajar en IT o que ya lo hacen. Ofrece encuestas, recursos gratuitos y guías de orientación.",
     "studying": "Actualmente estoy estudiando AWS Cloud y arquitectura de software."
   },
-  "about": "Sobre mí",
-  "resume": "CV",
+  "Navbar": {
+    "about": "Sobre mí",
+    "resume": "CV"
+  },
   "Resume": {
   "resume-title": "CV",
   "about-title": "Sobre mí",
