@@ -5,6 +5,12 @@ import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Milena Sol Aron",
@@ -26,7 +32,7 @@ export default async function Layout({
   const messages = await getMessages();
 
   return (
-    <html lang="en">
+    <html lang="en" className={lato.className}>
       <body>
         <NextIntlClientProvider messages={messages}>
           <Navbar />
