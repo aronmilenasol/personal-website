@@ -9,7 +9,7 @@ export default function About() {
     <h1 className="font-bold text-center text-4xl md:text-6xl m-8">
     {t("about-title")}
     </h1>
-    <div className="space-y-6 max-w-2xl bg-white p-6 rounded-lg shadow-lg border-4 border-pink-400">
+    <div className="space-y-6 max-w-2xl bg-white p-6 rounded-lg shadow-lg">
     <p className={paragraphClasses}>{t("introduction")}</p>
     <p className={paragraphClasses}>{t("website")}</p>
     <p className={paragraphClasses}>{t("education")}</p>
