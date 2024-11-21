@@ -9,6 +9,12 @@ const Navbar = () => {
   const t = useTranslations("Navbar");
   const locale = useLocale();
 
+  const changeLocale = (newLocale: string) => {
+    const currentPath = window.location.pathname;
+    const newPath = `/${newLocale}${currentPath.replace(`/${locale}`, "")}`;
+    window.location.href = newPath;
+  };
+
   const navLinkClasses =
     "font-bold text-xl mx-4 text-white hover:text-yellow-100 transition duration-300";
 
@@ -61,7 +67,12 @@ const Navbar = () => {
             </li>
           </div>
           <li className="md:flex-none">
-            {/* I should add the Change Language button here. */}
+            <button
+              onClick={() => changeLocale(locale === "en" ? "es" : "en")}
+              className="bg-pink-500 text-white font-bold py-2 px-4 rounded-md shadow-md hover:bg-pink-600 hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+            >
+              {locale === "en" ? "Español" : "English"}
+            </button>
           </li>
         </ul>
       </nav>
