@@ -5,6 +5,7 @@
     "description": "Software Developer & Founder of CarreraIT"
   },
   "About": {
+    "about-title": "About Me",
     "introduction": "I'm Milena Sol Aron, a Software Developer from Argentina. I have been working in this field since June 2023.",
     "website": "This website serves as a place to write articles about the tech industry and also as a portfolio to showcase my personal projects.",
     "education": "I started my IT journey as a self-taught learner. In May 2024, I began pursuing an Associate's Degree in Programming at Universidad Tecnológica Nacional.",
@@ -15,7 +16,6 @@
     "about": "About",
     "resume": "Resume"
   },
-  "title": "About Me",
   "Resume": {
     "resume-title": "My Resume",
     "about-title": "About me",
