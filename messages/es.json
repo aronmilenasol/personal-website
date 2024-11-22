@@ -9,7 +9,9 @@
     "introduction": "Soy Milena Sol Aron, una desarrolladora de software de Argentina. Estoy trabajando en el rubro desde junio de 2023.",
     "website": "Este sitio web es un espacio para mostrar mis proyectos personales, experiencia y habilidades, pero también para compartir pensamientos e imágenes.",
     "carrerait": "Mi pasión por el rubro me llevó a crear y desarrollar CarreraIT, una plataforma para personas de países hispanohablantes que quieren trabajar en IT o que ya lo hacen. Ofrece encuestas, recursos gratuitos y guías de orientación.",
-    "studying": "Actualmente estoy estudiando AWS Cloud y arquitectura de software."
+    "studying": "Actualmente estoy estudiando AWS Cloud y arquitectura de software.",
+     "contact": "Contacto",
+    "contact-description": "Podés encontrarme en:"
   },
   "Navbar": {
     "about": "Sobre mí",
