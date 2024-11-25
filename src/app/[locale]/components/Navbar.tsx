@@ -49,12 +49,13 @@ const Navbar = () => {
             <Link
               href="/"
               locale={locale}
-              className="text-3xl font-extrabold text-white hover:text-pink-200 transition-transform transform hover:scale-105 drop-shadow-xl"
+              className="text-3xl font-extrabold text-white hover:text-pink-200 transition-all duration-300 transform hover:scale-105 drop-shadow-xl flex items-center"
             >
+              <FaHeart className="text-pink-200 mr-2" />
               <span className="relative">
                 Milena Sol Aron
-                <span className="absolute -top-2 -right-4 text-pink-200 animate-bounce">
-                  <FaHeart />
+                <span className="absolute -top-1 -right-6 text-pink-200 animate-bounce">
+                  <FaHeart className="h-4 w-4" />
                 </span>
               </span>
             </Link>
