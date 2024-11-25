@@ -55,5 +55,22 @@
   "languages-title": "Idiomas",
   "english": "Inglés: C2",
   "spanish": "Español: Nativo"
+  },
+  "Projects": {
+    "projects-title": "Proyectos",
+    "project1-title": "CarreraIT",
+    "project1-description": "Plataforma web para personas interesadas o que trabajan en IT.",
+    "project1-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel.",
+    "project2-title": "Persephone",
+    "project2-description": "Aplicación de manejo de tareas con funcionalidades CRUD y validación de inputs.",
+    "project2-technologies": "Python, Flask, SQLite, HTML, Tailwind CSS.",
+    "project3-title": "AstroLife",
+    "project3-description": "Sitio web para usar la ecuación de Drake para calcular probabilidades de vida.",
+    "project3-technologies": "Python, Flask, Bootstrap.",
+    "project4-title": "Recipe Realm",
+    "project4-description": "Buscador de recetas que utiliza la API de Edamam.",
+    "project4-technologies": "Vite, TypeScript, React.js, Tailwind CSS.",
+    "repository": "Repositorio",
+    "link": "Enlace"
   }
 }
