@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Star, Sparkles } from "lucide-react";
 import ResumeAbout from "../components/ResumeAbout";
+import ResumeExperience from "../components/ResumeExperience";
 
 export default function Resume() {
   const t = useTranslations("Resume");
@@ -21,60 +22,7 @@ export default function Resume() {
       </h1>
       <div className="space-y-6 sm:space-y-8 w-full max-w-4xl mx-auto bg-white p-4 sm:p-8 md:p-10 rounded-3xl shadow-2xl border-4 border-pink-300">
         <ResumeAbout />
-        {/* Work Experience */}
-        <div className="mt-6 sm:mt-10">
-          <h2 className={titleClasses}>
-            <Star className="mr-2 text-pink-500 w-6 h-6 sm:w-8 sm:h-8" />{" "}
-            {t("experience-title")}
-          </h2>
-
-          {/* Full Stack Developer at bitbug */}
-          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
-            <p className={jobTitleClasses}>{t("job2-company")}</p>
-            <p className={jobRoleClasses}>{t("job2-role")}</p>
-            <p className={timelineClasses}>{t("job2-timeline")}</p>
-            <ul className="list-none mt-3">
-              {[
-                "job2-responsibility-1",
-                "job2-responsibility-2",
-                "job2-responsibility-3",
-              ].map((resp, index) => (
-                <li
-                  key={index}
-                  className={`${responsibilityClasses} flex items-start mb-2`}
-                >
-                  <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-                  <span>{t(resp)}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Full Stack Developer at Bigger */}
-          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
-            <p className={jobTitleClasses}>{t("job1-company")}</p>
-            <p className={jobRoleClasses}>{t("job1-role")}</p>
-            <p className={timelineClasses}>{t("job1-timeline")}</p>
-            <ul className="list-none mt-3">
-              {[
-                "job1-responsibility-1",
-                "job1-responsibility-2",
-                "job1-responsibility-3",
-                "job1-responsibility-4",
-                "job1-responsibility-5",
-              ].map((resp, index) => (
-                <li
-                  key={index}
-                  className={`${responsibilityClasses} flex items-start mb-2`}
-                >
-                  <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-                  <span>{t(resp)}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
+        <ResumeExperience />
         {/* Education */}
         <div className="mt-6 sm:mt-10">
           <h3 className={titleClasses}>
