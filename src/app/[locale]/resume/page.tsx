@@ -59,7 +59,7 @@ export default function Resume() {
             </ul>
           </div>
 
-          {/* Front End Developer at Bigger */}
+          {/* Full Stack Developer at Bigger */}
           <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
             <p className={jobTitleClasses}>{t("job1-company")}</p>
             <p className={jobRoleClasses}>{t("job1-role")}</p>
@@ -70,6 +70,7 @@ export default function Resume() {
                 "job1-responsibility-2",
                 "job1-responsibility-3",
                 "job1-responsibility-4",
+                "job1-responsibility-5",
               ].map((resp, index) => (
                 <li
                   key={index}
