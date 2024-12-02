@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Star, Sparkles } from "lucide-react";
 import ResumeAbout from "../components/ResumeAbout";
 import ResumeExperience from "../components/ResumeExperience";
+import ResumeEducation from "../components/ResumeEducation";
 
 export default function Resume() {
   const t = useTranslations("Resume");
@@ -23,28 +24,7 @@ export default function Resume() {
       <div className="space-y-6 sm:space-y-8 w-full max-w-4xl mx-auto bg-white p-4 sm:p-8 md:p-10 rounded-3xl shadow-2xl border-4 border-pink-300">
         <ResumeAbout />
         <ResumeExperience />
-        {/* Education */}
-        <div className="mt-6 sm:mt-10">
-          <h3 className={titleClasses}>
-            <Star className="mr-2 text-pink-500 w-6 h-6 sm:w-8 sm:h-8" />{" "}
-            {t("education-title")}
-          </h3>
-          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-pink-200">
-            {/* OSSU */}
-            <p className={jobTitleClasses}>{t("education2-institution")}</p>
-            <p className={jobRoleClasses}>{t("education2-area")}</p>
-            <p className={timelineClasses}>{t("education2-timeline")}</p>
-            <p className={paragraphClasses}>{t("education2-description")}</p>
-          </div>
-          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-pink-200">
-            {/* UTN */}
-            <p className={jobTitleClasses}>{t("education1-institution")}</p>
-            <p className={jobRoleClasses}>{t("education1-area")}</p>
-            <p className={timelineClasses}>{t("education1-timeline")}</p>
-            <p className={paragraphClasses}>{t("education1-description")}</p>
-          </div>
-        </div>
-
+        <ResumeEducation />
         {/* Tech Skills */}
         <div className="mt-6 sm:mt-10">
           <h3 className={titleClasses}>
