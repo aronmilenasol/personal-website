@@ -36,6 +36,24 @@ export default function Projects() {
           repositoryText={t("repository")}
           projectText={t("link")}
         />
+        <ProjectCard
+          title={t("project4-title")}
+          description={t("project4-description")}
+          technologies={t("project4-technologies").split(",")}
+          repositoryLink="https://github.com/aronmilenait/dragdrop-message"
+          projectLink="https://dragdrop-message.vercel.app/"
+          repositoryText={t("repository")}
+          projectText={t("link")}
+        />
+        <ProjectCard
+          title={t("project5-title")}
+          description={t("project5-description")}
+          technologies={t("project5-technologies").split(",")}
+          repositoryLink="https://github.com/aronmilenait/movie-quiz"
+          projectLink="https://milenamoviequiz.vercel.app/"
+          repositoryText={t("repository")}
+          projectText={t("link")}
+        />
       </div>
     </section>
   );
