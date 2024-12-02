@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import { Heart, Star, Sparkles } from "lucide-react";
+import { Star, Sparkles } from "lucide-react";
+import ResumeAbout from "../components/ResumeAbout";
 
 export default function Resume() {
   const t = useTranslations("Resume");
@@ -19,16 +20,7 @@ export default function Resume() {
         {t("resume-title")}
       </h1>
       <div className="space-y-6 sm:space-y-8 w-full max-w-4xl mx-auto bg-white p-4 sm:p-8 md:p-10 rounded-3xl shadow-2xl border-4 border-pink-300">
-        {/* About */}
-        <div className="bg-pink-100 p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-pink-200">
-          <h2 className={titleClasses}>
-            <Heart className="mr-2 text-pink-500 w-6 h-6 sm:w-8 sm:h-8" />{" "}
-            {t("about-title")}
-          </h2>
-          <p className={paragraphClasses}>{t("about-1")}</p>
-          <p className={`${paragraphClasses} mt-2`}>{t("about-2")}</p>
-        </div>
-
+        <ResumeAbout />
         {/* Work Experience */}
         <div className="mt-6 sm:mt-10">
           <h2 className={titleClasses}>
