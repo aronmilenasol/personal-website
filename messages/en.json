@@ -68,9 +68,12 @@
     "project3-title": "AstroLife",
     "project3-description": "Website for using the Drake Equation to calculate life probabilities.",
     "project3-technologies": "Python, Flask, Bootstrap.",
-    "project4-title": "Movie Quiz",
-    "project4-description": "Landing page where users can explore a selection of movies.",
-    "project4-technologies": "JavaScript, HTML, CSS",
+    "project4-title": "Drag & Drop",
+    "project4-description": "Simple drag & drop, with a modern iOS appearance.",
+    "project4-technologies": "Vite, JavaScript, React.js, Tailwind CSS",
+    "project5-title": "Movie Quiz",
+    "project5-description": "Landing page where users can explore a selection of movies.",
+    "project5-technologies": "JavaScript, HTML, CSS",
     "repository": "Repository",
     "link": "Link"
   }

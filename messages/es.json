@@ -69,7 +69,7 @@
     "project3-description": "Sitio web para usar la ecuación de Drake para calcular probabilidades de vida.",
     "project3-technologies": "Python, Flask, Bootstrap.",
     "project4-title": "Drag & Drop",
-    "project4-description": "Sitio web de drag & drop simple, con una apariencia de iOS moderna.",
+    "project4-description": "Drag & drop simple, con una apariencia de iOS moderna.",
     "project4-technologies": "Vite, JavaScript, React.js, Tailwind CSS",
     "project5-title": "Movie Quiz",
     "project5-description": "Landing page donde los usuarios pueden explorar una selección de películas.",
