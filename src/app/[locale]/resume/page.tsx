@@ -101,7 +101,7 @@ export default function Resume() {
             <p className={jobTitleClasses}>{t("education1-institution")}</p>
             <p className={jobRoleClasses}>{t("education1-area")}</p>
             <p className={timelineClasses}>{t("education1-timeline")}</p>
-            <p className={paragraphClasses}>{t("eduaction1-description")}</p>
+            <p className={paragraphClasses}>{t("education1-description")}</p>
           </div>
         </div>
 
