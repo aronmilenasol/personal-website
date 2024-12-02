@@ -27,7 +27,6 @@ export default function Resume() {
           </h2>
           <p className={paragraphClasses}>{t("about-1")}</p>
           <p className={`${paragraphClasses} mt-2`}>{t("about-2")}</p>
-          <p className={`${paragraphClasses} mt-2`}>{t("about-3")}</p>
         </div>
 
         {/* Work Experience */}
