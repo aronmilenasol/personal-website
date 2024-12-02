@@ -17,6 +17,7 @@ const ProjectCard = ({
   repositoryText,
   projectText,
 }: ProjectCardProps) => {
+
   const cardClasses =
     "bg-white p-6 rounded-2xl mb-6 border-2 border-pink-400 shadow-lg";
   const titleClasses = "text-2xl font-bold mb-2";
@@ -40,12 +41,12 @@ const ProjectCard = ({
         ))}
       </div>
       {repositoryLink && (
-        <a href={repositoryLink} className={repositoryButtonClasses}>
+        <a href={repositoryLink} className={repositoryButtonClasses} target="_blank" rel="noopener noreferrer">
           {repositoryText}
         </a>
       )}
       {projectLink && (
-        <a href={projectLink} className={linkButtonClasses}>
+        <a href={projectLink} className={linkButtonClasses} target="_blank" rel="noopener noreferrer">
           {projectText}
         </a>
       )}
