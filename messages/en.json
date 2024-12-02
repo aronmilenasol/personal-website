@@ -48,6 +48,9 @@
     "education1-area": "Associate's Degree in Programming",
     "education1-timeline": "May 2024 - October 2024.",
     "education1-description": "I studied Programming and Operating Systems subjects, which provided me with foundational knowledge in programming, GNU/Linux, and C++.",
+    "skills-title": "Tech Skills",
+    "skills-subtitle1": "Programming Languages",
+    "skills-subtitle2": "Frameworks, libraries and other tools",
     "languages-title": "Languages",
     "english": "English: C2",
     "spanish": "Spanish: Native"
