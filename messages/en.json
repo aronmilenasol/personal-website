@@ -56,21 +56,21 @@
     "english": "English: C2",
     "spanish": "Spanish: Native"
   },
-"Projects": {
-  "projects-title": "Projects",
-  "project1-title": "CarreraIT",
-  "project1-description": "Web platform for people interested or working in IT.",
-  "project1-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel.",
-  "project2-title": "Persephone",
-  "project2-description": "Task management app with CRUD functions and input validation.",
-  "project2-technologies": "Python, Flask, SQLite, HTML, Tailwind CSS.",
-  "project3-title": "AstroLife",
-  "project3-description": "Website for using the Drake Equation to calculate life probabilities.",
-  "project3-technologies": "Python, Flask, Bootstrap.",
-  "project4-title": "Recipe Realm",
-  "project4-description": "Recipe finder for global dishes using the Edamam API.",
-  "project4-technologies": "Vite, TypeScript, React.js, Tailwind CSS.",
-  "repository": "Repository",
-  "link": "Link"
-}
+  "Projects": {
+    "projects-title": "Projects",
+    "project1-title": "CarreraIT",
+    "project1-description": "Web platform for people interested or working in IT.",
+    "project1-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel.",
+    "project2-title": "Persephone",
+    "project2-description": "Task management app with CRUD functions and input validation.",
+    "project2-technologies": "Python, Flask, SQLite, HTML, Tailwind CSS.",
+    "project3-title": "AstroLife",
+    "project3-description": "Website for using the Drake Equation to calculate life probabilities.",
+    "project3-technologies": "Python, Flask, Bootstrap.",
+    "project4-title": "Recipe Realm",
+    "project4-description": "Recipe finder for global dishes using the Edamam API.",
+    "project4-technologies": "Vite, TypeScript, React.js, Tailwind CSS.",
+    "repository": "Repository",
+    "link": "Link"
+  }
 }
