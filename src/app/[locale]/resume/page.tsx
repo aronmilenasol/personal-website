@@ -27,7 +27,6 @@ export default function Resume() {
           </h2>
           <p className={paragraphClasses}>{t("about-1")}</p>
           <p className={`${paragraphClasses} mt-2`}>{t("about-2")}</p>
-          <p className={`${paragraphClasses} mt-2`}>{t("about-3")}</p>
         </div>
 
         {/* Work Experience */}
@@ -36,31 +35,6 @@ export default function Resume() {
             <Star className="mr-2 text-pink-500 w-6 h-6 sm:w-8 sm:h-8" />{" "}
             {t("experience-title")}
           </h2>
-          {/* Founder at CarreraIT */}
-          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
-            <p className={jobTitleClasses}>{t("job3-company")}</p>
-            <p className={jobRoleClasses}>{t("job3-role")}</p>
-            <p className={timelineClasses}>{t("job3-timeline")}</p>
-            <p className="font-medium text-base sm:text-lg md:text-xl mt-3 text-pink-600">
-              {t("job3-clarification")}
-            </p>
-            <ul className="list-none mt-3">
-              {[
-                "job3-responsibility-1",
-                "job3-responsibility-2",
-                "job3-responsibility-3",
-                "job3-responsibility-4",
-              ].map((resp, index) => (
-                <li
-                  key={index}
-                  className={`${responsibilityClasses} flex items-start mb-2`}
-                >
-                  <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-                  <span>{t(resp)}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           {/* Full Stack Developer at bitbug */}
           <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
@@ -84,7 +58,7 @@ export default function Resume() {
             </ul>
           </div>
 
-          {/* Front End Developer at Bigger */}
+          {/* Full Stack Developer at Bigger */}
           <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
             <p className={jobTitleClasses}>{t("job1-company")}</p>
             <p className={jobRoleClasses}>{t("job1-role")}</p>
@@ -95,6 +69,7 @@ export default function Resume() {
                 "job1-responsibility-2",
                 "job1-responsibility-3",
                 "job1-responsibility-4",
+                "job1-responsibility-5",
               ].map((resp, index) => (
                 <li
                   key={index}
@@ -119,12 +94,65 @@ export default function Resume() {
             <p className={jobTitleClasses}>{t("education2-institution")}</p>
             <p className={jobRoleClasses}>{t("education2-area")}</p>
             <p className={timelineClasses}>{t("education2-timeline")}</p>
+            <p className={paragraphClasses}>{t("education2-description")}</p>
           </div>
           <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-pink-200">
             {/* UTN */}
             <p className={jobTitleClasses}>{t("education1-institution")}</p>
             <p className={jobRoleClasses}>{t("education1-area")}</p>
             <p className={timelineClasses}>{t("education1-timeline")}</p>
+            <p className={paragraphClasses}>{t("education1-description")}</p>
+          </div>
+        </div>
+
+        {/* Tech Skills */}
+        <div className="mt-6 sm:mt-10">
+          <h3 className={titleClasses}>
+            <Star className="mr-2 text-pink-500 w-6 h-6 sm:w-8 sm:h-8" />{" "}
+            {t("skills-title")}
+          </h3>
+          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-pink-200">
+            {/* Programming Languages*/}
+            <p className={jobTitleClasses}>{t("skills-subtitle1")}</p>
+            <ul className="list-none mt-3">
+              {["JavaScript", "TypeScript", "Python"].map((lang, index) => (
+                <li
+                  key={index}
+                  className={`${responsibilityClasses} flex items-start mb-2`}
+                >
+                  <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+                  <span>{lang}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-pink-200">
+            {/* Frameworks, Libraries and Tools */}
+            <p className={jobTitleClasses}>{t("skills-subtitle2")}</p>
+            <ul className="list-none mt-3">
+              {[
+                "Tailwind CSS",
+                "Next.js",
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MySQL",
+                "SQLite",
+                "Postman",
+                "Git/GitHub",
+                "Puppeteer",
+                "Docker",
+                "Nest.js",
+              ].map((tool, index) => (
+                <li
+                  key={index}
+                  className={`${responsibilityClasses} flex items-start mb-2`}
+                >
+                  <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+                  <span>{tool}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 
