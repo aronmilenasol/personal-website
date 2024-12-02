@@ -71,6 +71,9 @@
     "project4-title": "Drag & Drop",
     "project4-description": "Sitio web de drag & drop simple, con una apariencia de iOS moderna.",
     "project4-technologies": "Vite, JavaScript, React.js, Tailwind CSS",
+    "project5-title": "Movie Quiz",
+    "project5-description": "Landing page donde los usuarios pueden explorar una selección de películas.",
+    "project5-technologies": "JavaScript, HTML, CSS",
     "repository": "Repositorio",
     "link": "Enlace"
   }
