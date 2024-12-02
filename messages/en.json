@@ -15,7 +15,8 @@
   },
   "Navbar": {
     "about": "About",
-    "resume": "Resume"
+    "resume": "Resume",
+    "projects": "Projects"
   },
   "Resume": {
     "resume-title": "My Resume",
