@@ -68,9 +68,9 @@
     "project3-title": "AstroLife",
     "project3-description": "Sitio web para usar la ecuación de Drake para calcular probabilidades de vida.",
     "project3-technologies": "Python, Flask, Bootstrap.",
-    "project4-title": "Recipe Realm",
-    "project4-description": "Buscador de recetas que utiliza la API de Edamam.",
-    "project4-technologies": "Vite, TypeScript, React.js, Tailwind CSS.",
+    "project4-title": "Drag & Drop",
+    "project4-description": "Sitio web de drag & drop simple, con una apariencia de iOS moderna.",
+    "project4-technologies": "Vite, JavaScript, React.js, Tailwind CSS",
     "repository": "Repositorio",
     "link": "Enlace"
   }
