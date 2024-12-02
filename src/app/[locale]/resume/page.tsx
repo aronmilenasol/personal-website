@@ -36,31 +36,6 @@ export default function Resume() {
             <Star className="mr-2 text-pink-500 w-6 h-6 sm:w-8 sm:h-8" />{" "}
             {t("experience-title")}
           </h2>
-          {/* Founder at CarreraIT */}
-          <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
-            <p className={jobTitleClasses}>{t("job3-company")}</p>
-            <p className={jobRoleClasses}>{t("job3-role")}</p>
-            <p className={timelineClasses}>{t("job3-timeline")}</p>
-            <p className="font-medium text-base sm:text-lg md:text-xl mt-3 text-pink-600">
-              {t("job3-clarification")}
-            </p>
-            <ul className="list-none mt-3">
-              {[
-                "job3-responsibility-1",
-                "job3-responsibility-2",
-                "job3-responsibility-3",
-                "job3-responsibility-4",
-              ].map((resp, index) => (
-                <li
-                  key={index}
-                  className={`${responsibilityClasses} flex items-start mb-2`}
-                >
-                  <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-                  <span>{t(resp)}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           {/* Full Stack Developer at bitbug */}
           <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
