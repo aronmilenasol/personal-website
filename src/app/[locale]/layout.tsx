@@ -7,6 +7,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Lato } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default async function Layout({
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
+          <Analytics />
           <Footer />
         </NextIntlClientProvider>
       </body>
