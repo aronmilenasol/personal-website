@@ -2,7 +2,8 @@
   "Homepage": {
     "welcome": "Welcome to my website!",
     "name": "I'm Milena Sol Aron",
-    "description": "Software Developer"
+    "description": "Software Developer",
+    "button": "Get in touch"
   },
   "About": {
     "about-title": "About Me",
