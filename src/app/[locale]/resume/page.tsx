@@ -9,8 +9,8 @@ export default function Resume() {
   const t = useTranslations("Resume");
 
   return (
-    <section className="bg-gradient-to-r from-orange-50 to-pink-100 font-lato flex flex-col justify-center items-center p-4 sm:p-8 text-pink-900 min-h-screen">
-      <h1 className="font-bold text-3xl sm:text-5xl md:text-7xl text-pink-600 text-center mb-6 sm:mb-12 font-cursive">
+    <section className="bg-gradient-to-r from-pink-100 to-pink-200 text-pink-800 font-lato flex flex-col justify-center items-center p-4 sm:p-8 min-h-screen">
+      <h1 className="text-4xl md:text-5xl font-bold mb-12 text-pink-700 leading-tight text-center">
         {t("resume-title")}
       </h1>
       <div className="space-y-6 sm:space-y-8 w-full max-w-4xl mx-auto bg-white p-4 sm:p-8 md:p-10 rounded-3xl shadow-2xl border-4 border-pink-300">
