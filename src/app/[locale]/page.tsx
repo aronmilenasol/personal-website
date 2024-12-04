@@ -30,7 +30,7 @@ export default function Home() {
           <div className="relative h-64 md:h-full">
             <Image
               src={homeImage}
-              alt="Profile of Milena Sol Aron"
+              alt="A girl sitting with her laptop, wearing pink trousers and holding a coffee on her right hand."
               layout="fill"
               objectFit="cover"
               className="rounded-b-3xl md:rounded-l-none md:rounded-r-3xl"
