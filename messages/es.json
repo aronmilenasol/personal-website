@@ -12,7 +12,10 @@
     "carrerait": "Mi pasión por el rubro me llevó a crear y desarrollar CarreraIT, una plataforma para personas de países hispanohablantes que quieren trabajar en IT o que ya lo hacen. Ofrece encuestas, recursos gratuitos y guías de orientación.",
     "studying": "Actualmente estoy estudiando arquitectura de software.",
     "contact": "Contacto",
-    "contact-description": "Podés encontrarme en:"
+    "contact-description": "Podés encontrarme en:",
+    "about-website-title": "Sobre este sitio web",
+    "about-website-technologies": "Las tecnologías usadas son Next.js, TypeScript, Tailwind CSS y next-intl.",
+    "about-website-repository": "Ver el repositorio"
   },
   "Navbar": {
     "about": "Sobre mí",
