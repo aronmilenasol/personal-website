@@ -17,7 +17,6 @@ export default function About() {
             <p className={paragraphClasses}>{t("introduction")}</p>
             <p className={paragraphClasses}>{t("website")}</p>
             <p className={paragraphClasses}>{t("carrerait")}</p>
-            <p className={paragraphClasses}>{t("studying")}</p>
           </div>
         </div>
       </div>
