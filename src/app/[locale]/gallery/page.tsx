@@ -3,6 +3,9 @@ import ImageGallery from "../components/ImageGallery";
 import ushuaiaIsland from "../assets/ushuaia-island.webp";
 import ushuaiaLandscape from "../assets/ushuaia-landscape.webp";
 import ushuaiaMountain2 from "../assets/ushuaia-mountain2.webp";
+import ushuaiaStreets from "../assets/ushuaia-streets.webp";
+import ushuaiaNationalPark from "../assets/ushuaia-national-park.webp";
+import ushuaiaLake from "../assets/ushuaia-lake.webp";
 
 export default function Gallery() {
   const t = useTranslations("Gallery");
@@ -10,6 +13,9 @@ export default function Gallery() {
     { src: ushuaiaIsland, alt: t("ushuaia-island-alt") },
     { src: ushuaiaLandscape, alt: t("ushuaia-landscape-alt") },
     { src: ushuaiaMountain2, alt: t("ushuaia-mountain-alt") },
+    { src: ushuaiaStreets, alt: t("ushuaia-streets-alt") },
+    { src: ushuaiaNationalPark, alt: t("ushuaia-national-park-alt") },
+    { src: ushuaiaLake, alt: t("ushuaia-lake-alt") },
   ];
 
   return (
