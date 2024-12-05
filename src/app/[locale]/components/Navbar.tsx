@@ -79,6 +79,12 @@ const Navbar = () => {
                 <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-200 transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
               </Link>
             </li>
+            <li>
+              <Link href="/gallery" locale={locale} className={navLinkClasses}>
+                {t("gallery")}
+                <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-200 transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
+              </Link>
+            </li>
           </div>
           <li className="md:flex-none">
             <button

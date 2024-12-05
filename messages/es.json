@@ -20,7 +20,8 @@
   "Navbar": {
     "about": "Sobre mí",
     "resume": "CV",
-    "projects": "Proyectos"
+    "projects": "Proyectos",
+    "gallery": "Galería"
   },
   "Resume": {
     "resume-title": "CV",
