@@ -78,5 +78,9 @@
     "project5-technologies": "JavaScript, HTML, CSS",
     "repository": "Repositorio",
     "link": "Enlace"
+  },
+  "Gallery": {
+    "gallery-title": "Galería",
+    "gallery-description": "Imágenes aleatorias de mi vida."
   }
 }
