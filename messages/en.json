@@ -20,7 +20,8 @@
   "Navbar": {
     "about": "About",
     "resume": "Resume",
-    "projects": "Projects"
+    "projects": "Projects",
+    "gallery": "Gallery"
   },
   "Resume": {
     "resume-title": "My Resume",
@@ -78,5 +79,15 @@
     "project5-technologies": "JavaScript, HTML, CSS",
     "repository": "Repository",
     "link": "Link"
+  },
+  "Gallery": {
+    "gallery-title": "Gallery",
+    "gallery-description": "Random images from my life.",
+    "ushuaia-island-alt": "Bridge Island, Ushuaia.",
+    "ushuaia-landscape-alt": "Walking to the Martial Glaciar.",
+    "ushuaia-mountain-alt": "Roads from Ushuaia.",
+    "ushuaia-streets-alt": "Streets from Ushuaia.",
+    "ushuaia-national-park-alt": "Tierra del Fuego National Park",
+    "ushuaia-lake-alt": "Emerald Lake, Ushuaia."
   }
 }
