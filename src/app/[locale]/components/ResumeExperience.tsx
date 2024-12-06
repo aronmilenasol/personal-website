@@ -39,6 +39,31 @@ const ResumeExperience = () => {
           ))}
         </ul>
       </div>
+
+      {/* Full Stack Developer at bigger */}
+
+      <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-pink-200">
+        <p className={jobTitleClasses}>{t("job1-company")}</p>
+        <p className={jobRoleClasses}>{t("job1-role")}</p>
+        <p className={timelineClasses}>{t("job1-timeline")}</p>
+        <ul className="list-none mt-3">
+          {[
+            "job1-responsibility-1",
+            "job1-responsibility-2",
+            "job1-responsibility-3",
+            "job1-responsibility-4",
+            "job1-responsibility-5",
+          ].map((resp, index) => (
+            <li
+              key={index}
+              className={`${responsibilityClasses} flex items-start mb-2`}
+            >
+              <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+              <span>{t(resp)}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
