@@ -39,7 +39,7 @@
     "job1-company": "Bigger",
     "job1-role": "Full Stack Developer",
     "job1-timeline": "June 2023 - August 2024",
-    "job1-responsibility-1": "Participate in front-end development using Vite, TypeScript, JavaScript, and Tailwind CSS following the SOLID principles.",
+    "job1-responsibility-1": "Participate in front-end development using Next.js, Vite, TypeScript, JavaScript, and Tailwind CSS following the SOLID principles.",
     "job1-responsibility-2": "Back-end development for web scrapping using Express.js, SQLite, and Puppeteer.",
     "job1-responsibility-3": "Back-end development using Nest.js, Docker, TypeORM, MySQL and SQLite in training projects.",
     "job1-responsibility-4": "Testing with Cypress and Jest to ensure the quality and functionality of web applications.",
