@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import homeImage from "./assets/home-image.jpg";
+import homeImage from "./assets/home-image.webp";
 
 export default function Home() {
   const t = useTranslations("Homepage");
@@ -32,10 +32,10 @@ export default function Home() {
             <Image
               src={homeImage}
               alt="A girl sitting with her laptop, wearing pink trousers and holding a coffee on her right hand."
-              layout="fill"
-              objectFit="cover"
-              className="rounded-b-3xl md:rounded-l-none md:rounded-r-3xl"
-              priority
+              className="w-full h-full object-cover rounded-b-3xl md:rounded-l-none md:rounded-r-3xl"
+              priority={true}
+              width={600}
+              height={600}
             />
           </div>
         </div>
