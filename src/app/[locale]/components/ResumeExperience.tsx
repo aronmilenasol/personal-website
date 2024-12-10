@@ -51,6 +51,7 @@ const ResumeExperience = () => {
             "job1-responsibility-3",
             "job1-responsibility-4",
             "job1-responsibility-5",
+            "job1-responsibility-6",
           ].map((resp, index) => (
             <li
               key={index}
