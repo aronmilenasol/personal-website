@@ -2,7 +2,6 @@ import { useTranslations } from "next-intl";
 import ResumeAbout from "../components/ResumeAbout";
 import ResumeExperience from "../components/ResumeExperience";
 import ResumeEducation from "../components/ResumeEducation";
-import ResumeSkills from "../components/ResumeSkills";
 import ResumeLanguages from "../components/ResumeLanguages";
 
 export default function Resume() {
@@ -17,7 +16,6 @@ export default function Resume() {
         <ResumeAbout />
         <ResumeExperience />
         <ResumeEducation />
-        <ResumeSkills />
         <ResumeLanguages />
       </div>
     </section>
