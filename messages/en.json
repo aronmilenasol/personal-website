@@ -89,5 +89,12 @@
     "ushuaia-streets-alt": "Streets from Ushuaia.",
     "ushuaia-national-park-alt": "Tierra del Fuego National Park",
     "ushuaia-lake-alt": "Emerald Lake, Ushuaia."
+  },
+  "Now": {
+    "now-title": "Now",
+    "now-description": "What I've been doing regarding my career.",
+    "now-reading-title": "Currently reading",
+    "book1-title": "The Pragmatic Programmer",
+    "book1-author": "Andrew Hunt, David Thomas"
   }
 }

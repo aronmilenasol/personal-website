@@ -90,5 +90,12 @@
     "ushuaia-streets-alt": "Calles de Ushuaia.",
     "ushuaia-national-park-alt": "Parque Nacional Tierra del Fuego",
     "ushuaia-lake-alt": "Laguna Esmeralda, Ushuaia"
+  },
+  "Now": {
+    "now-title": "Actualidad",
+    "now-description": "Lo que estoy haciendo con respecto a mi carrera.",
+    "now-reading-title": "Leyendo",
+    "book1-title": "El programador pragmático",
+    "book1-author": "Andrew Hunt, David Thomas"
   }
 }
