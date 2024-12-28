@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "../components/project/ProjectCard";
 
 export default function Projects() {
   const t = useTranslations("Projects");
