@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import ImageGallery from "../components/ImageGallery";
+import ImageGallery from "../components/gallery/ImageGallery";
 import ushuaiaIsland from "../assets/ushuaia-island.webp";
 import ushuaiaLandscape from "../assets/ushuaia-landscape.webp";
 import ushuaiaMountain2 from "../assets/ushuaia-mountain2.webp";
