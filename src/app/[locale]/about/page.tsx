@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import AboutWebsite from "../components/AboutWebsite";
+import AboutWebsite from "../components/about/AboutWebsite";
 
 export default function About() {
   const t = useTranslations("About");
