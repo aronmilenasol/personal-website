@@ -1,8 +1,8 @@
 import { useTranslations } from "next-intl";
-import ResumeAbout from "../components/ResumeAbout";
-import ResumeExperience from "../components/ResumeExperience";
-import ResumeEducation from "../components/ResumeEducation";
-import ResumeLanguages from "../components/ResumeLanguages";
+import ResumeAbout from "../components/resume/ResumeAbout";
+import ResumeExperience from "../components/resume/ResumeExperience";
+import ResumeEducation from "../components/resume/ResumeEducation";
+import ResumeLanguages from "../components/resume/ResumeLanguages";
 
 export default function Resume() {
   const t = useTranslations("Resume");

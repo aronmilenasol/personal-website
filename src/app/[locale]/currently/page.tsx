@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import NowReading from "../components/NowReading";
+import NowReading from "../components/currently/NowReading";
 
 export default function Currently() {
   const t = useTranslations("Now");
