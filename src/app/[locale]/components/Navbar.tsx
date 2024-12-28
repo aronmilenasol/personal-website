@@ -15,6 +15,13 @@ const Navbar = () => {
     window.location.href = newPath;
   };
 
+  const navLinks = [
+    { label: t("about"), href: "/about" },
+    { label: t("projects"), href: "/projects" },
+    { label: t("resume"), href: "/resume" },
+    { label: t("currently"), href: "/currently" },
+  ];
+
   const navLinkClasses =
     "font-bold text-xl mx-4 text-white hover:text-pink-200 transition duration-300 relative group";
 
@@ -61,34 +68,17 @@ const Navbar = () => {
             </Link>
           </li>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-2 md:space-x-4 mx-auto">
-            <li>
-              <Link href="/about" locale={locale} className={navLinkClasses}>
-                {t("about")}
-                <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-200 transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/projects" locale={locale} className={navLinkClasses}>
-                {t("projects")}
-                <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-200 transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/resume" locale={locale} className={navLinkClasses}>
-                {t("resume")}
-                <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-200 transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/currently"
-                locale={locale}
-                className={navLinkClasses}
-              >
-                {t("currently")}
-                <span className="absolute inset-x-0 bottom-0 h-1 bg-pink-200 transform scale-x-0 origin-left transition-transform group-hover:scale-x-100"></span>
-              </Link>
-            </li>
+            {navLinks.map((link) => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  locale={locale}
+                  className={navLinkClasses}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
           </div>
           <li className="md:flex-none">
             <button
