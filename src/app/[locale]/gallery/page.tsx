@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl";
 import ImageGallery from "../components/gallery/ImageGallery";
-import ushuaiaIsland from "../assets/ushuaia-island.webp";
-import ushuaiaLandscape from "../assets/ushuaia-landscape.webp";
-import ushuaiaMountain2 from "../assets/ushuaia-mountain2.webp";
-import ushuaiaStreets from "../assets/ushuaia-streets.webp";
-import ushuaiaNationalPark from "../assets/ushuaia-national-park.webp";
-import ushuaiaLake from "../assets/ushuaia-lake.webp";
+import ushuaiaIsland from "../assets/gallery/ushuaia-island.webp";
+import ushuaiaLandscape from "../assets/gallery/ushuaia-landscape.webp";
+import ushuaiaMountain2 from "../assets/gallery/ushuaia-mountain2.webp";
+import ushuaiaStreets from "../assets/gallery/ushuaia-streets.webp";
+import ushuaiaNationalPark from "../assets/gallery/ushuaia-national-park.webp";
+import ushuaiaLake from "../assets/gallery/ushuaia-lake.webp";
 
 export default function Gallery() {
   const t = useTranslations("Gallery");
