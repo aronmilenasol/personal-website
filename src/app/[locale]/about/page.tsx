@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import AboutWebsite from "../components/about/AboutWebsite";
+import AboutLikes from "../components/about/AboutLikes";
 
 export default function About() {
   const t = useTranslations("About");
@@ -20,6 +21,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <AboutLikes />
       <AboutWebsite />
     </section>
   );
