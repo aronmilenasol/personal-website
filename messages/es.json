@@ -15,7 +15,12 @@
     "contact-description": "Podés encontrarme en:",
     "about-website-title": "Sobre este sitio web",
     "about-website-technologies": "Las tecnologías usadas son Next.js, TypeScript, Tailwind CSS y next-intl.",
-    "about-website-repository": "Ver el repositorio"
+    "about-website-repository": "Ver el repositorio",
+    "about-likes-title": "Me gusta...",
+    "about-likes-1": "Trabajar junto a mi gata (una de las mayores ventajas que me brinda el trabajo remoto).",
+    "about-likes-2": "El sentimiento de satisfacción posterior a resolver un problema o hacer una mejora en el código.",
+    "about-likes-3": "El libro The Pragmatic Programmer, de Andy Hunt y Dave Thomas. Me enseñó muchísimas cosas que aplico en el día a día.",
+    "about-likes-4": "Mantener mi código bien estructurado y organizado. Son dos aspectos fundamentales para mí a la hora de desarrollar."
   },
   "Navbar": {
     "about": "Sobre mí",
