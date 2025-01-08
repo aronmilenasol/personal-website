@@ -15,7 +15,12 @@
     "contact-description": "You can find me at:",
     "about-website-title": "About this website",
     "about-website-technologies": "The technologies used are Next.js, TypeScript, Tailwind CSS, and next-intl.",
-    "about-website-repository": "View the repository"
+    "about-website-repository": "View the repository",
+    "about-likes-title": "I like...",
+    "about-likes-1": "Working with my cat (one of the biggest advantages that working remotely gives me).",
+    "about-likes-2": "The feeling of satisfaction after solving a problem or making an improvement in the code.",
+    "about-likes-3": "The book The Pragmatic Programmer, by Andy Hunt and Dave Thomas. It taught me a lot of things that I apply every day.",
+    "about-likes-4": "Keeping my code well structured and organized. These are two fundamental aspects for me when developing."
   },
   "Navbar": {
     "about": "About",
