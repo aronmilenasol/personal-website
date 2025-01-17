@@ -33,7 +33,7 @@ const ResumeExperience = () => {
                 <Sparkles className="mr-2 text-pink-400 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
                 <span>{t(resp)}</span>
               </li>
-            )
+            ),
           )}
         </ul>
       </div>
