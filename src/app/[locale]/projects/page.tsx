@@ -20,19 +20,19 @@ export default function Projects() {
           projectText={t("link")}
         />
         <ProjectCard
-          title={t("project2-title")}
-          description={t("project2-description")}
-          technologies={t("project2-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/persephone-app"
+          title={t("project3-title")}
+          description={t("project3-description")}
+          technologies={t("project3-technologies").split(",")}
+          repositoryLink="https://github.com/aronmilenait/vwave-challenge"
+          projectLink="https://vwavechallenge.vercel.app/"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
         <ProjectCard
-          title={t("project3-title")}
-          description={t("project3-description")}
-          technologies={t("project3-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/astrolife-calculator"
-          projectLink="https://calculate-astrolife.vercel.app/"
+          title={t("project2-title")}
+          description={t("project2-description")}
+          technologies={t("project2-technologies").split(",")}
+          repositoryLink="https://github.com/aronmilenait/persephone-app"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
