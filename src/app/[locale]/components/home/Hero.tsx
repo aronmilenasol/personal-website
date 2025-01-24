@@ -16,9 +16,6 @@ const Hero = () => {
             <h2 className="text-2xl md:text-3xl mb-6 text-pink-600 font-semibold">
               {t("name")}
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed text-pink-800 mb-8">
-              {t("description")}
-            </p>
             <a
               className="text-center bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-full shadow-md transition-colors duration-300 w-full md:w-auto"
               href="mailto:aronmilena.it@gmail.com"
