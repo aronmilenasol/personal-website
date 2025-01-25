@@ -2,10 +2,10 @@ import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   const iconClasses =
-    "text-pink-400 hover:text-pink-600 transition-colors duration-300 transform hover:scale-110";
+    "text-dark hover:text-darker transition-colors duration-300 transform hover:scale-110";
 
   return (
-    <footer className="bg-gradient-to-r from-pink-100 to-pink-200 shadow-lg py-8">
+    <footer className="bg-light py-8">
       <div className="container mx-auto flex items-center justify-center">
         <div className="flex space-x-8">
           <a
