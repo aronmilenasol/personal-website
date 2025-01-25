@@ -5,8 +5,8 @@ export default function Projects() {
   const t = useTranslations("Projects");
 
   return (
-    <section className="bg-gradient-to-r from-pink-100 to-pink-200 text-pink-800 font-lato flex flex-col justify-center items-center p-8 min-h-screen">
-      <h1 className="text-4xl md:text-5xl font-bold mb-12 text-pink-700 leading-tight text-center">
+    <section className="bg-light text-dark font-lato flex flex-col justify-center items-center p-8 min-h-screen">
+      <h1 className="text-4xl md:text-5xl font-bold mb-12 text-darker leading-tight text-center">
         {t("projects-title")}
       </h1>
       <div className="space-y-8 max-w-4xl mx-auto">
