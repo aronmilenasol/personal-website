@@ -13,13 +13,3 @@
 body {
   font-family: "Lato", sans-serif;
 }
-
-html,
-body {
-  cursor: url("./assets/cursor/cursor.png"), auto;
-}
-
-a:hover,
-button:hover {
-  cursor: url("./assets/cursor/cursor-hover.png"), auto;
-}
