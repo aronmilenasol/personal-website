@@ -23,7 +23,7 @@ const Navbar = () => {
   ];
 
   const navLinkClasses =
-    "font-bold text-xl mx-4 text-white hover:text-pink-200 transition duration-300 relative group";
+    "font-bold text-xl mx-4 text-lighter hover:text-white transition duration-300 relative group";
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 text-white shadow-lg">
+    <header className="bg-base text-white shadow-lg">
       <nav className="container mx-auto p-4">
         <div className="md:hidden flex justify-end">
           <button
@@ -56,12 +56,11 @@ const Navbar = () => {
             <Link
               href="/"
               locale={locale}
-              className="text-3xl font-extrabold text-white hover:text-pink-200 transition-all duration-300 transform hover:scale-105 drop-shadow-xl flex items-center"
+              className="text-3xl font-extrabold text-lighter hover:text-white transition-all duration-300 transform hover:scale-105 drop-shadow-xl flex items-center"
             >
-              <FaHeart className="text-pink-200 mr-2" />
               <span className="relative">
                 Milena Sol Aron
-                <span className="absolute -top-1 -right-6 text-pink-200 animate-bounce">
+                <span className="absolute -top-1 -right-6 animate-bounce">
                   <FaHeart className="h-4 w-4" />
                 </span>
               </span>
@@ -83,7 +82,7 @@ const Navbar = () => {
           <li className="md:flex-none">
             <button
               onClick={() => changeLocale(locale === "en" ? "es" : "en")}
-              className="bg-white text-pink-500 font-bold py-2 px-4 rounded-full shadow-md hover:bg-pink-100 hover:text-pink-600 hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 border-2 border-pink-300"
+              className="bg-dark text-white font-bold py-2 px-4 rounded-full shadow-md hover:bg-darker hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
             >
               {locale === "en" ? "Español" : "English"}
             </button>
