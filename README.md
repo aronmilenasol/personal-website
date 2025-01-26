@@ -1,5 +1,5 @@
-# 🌹 Personal Website
-Initially, it was meant to be a personal and portfolio website. As time passed by, it turned more into the second one.
+# Portfolio
+This website started by being a combination of a personal and a portfolio website. However, I started to feel more comfortable with the idea of it being merely for work and career-related purposes. 
 
 ## ⭐ Features:
 
@@ -20,6 +20,6 @@ Initially, it was meant to be a personal and portfolio website. As time passed b
 
 ### 💭 Inspiration
 
-After seeing [this](https://luzojeda.com/) personal website from another developer, I immediately loved the idea of mixing personal things (like pictures and thoughts) with work-related stuff (like my resume and projects).
+I've taken many ideas from this website from [Lucas Ezequiel's](https://lojeda.co/es/) personal website. My favourite sections are "Likes", "Resume" and "Now", which I incorporated in my portfolio in similar ways.
 
 I believe that we can find a lot of inspiration from our peers. This means valuing and admiring their work and taking ideas to innovate instead of attempting to do the same.
