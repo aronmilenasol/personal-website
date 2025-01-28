@@ -4,6 +4,23 @@ import { BookOpen } from "lucide-react";
 const NowReading = () => {
   const t = useTranslations("Now");
 
+  const Book = ({
+    title,
+    author,
+  }: {
+    title: string;
+    author: string;
+  }): JSX.Element => {
+    return (
+      <div className="mb-4 bg-lighter shadow-md border-2 border-base p-4 sm:p-6 rounded-2xl">
+        <p className="font-semibold text-xl sm:text-2xl md:text-3xl mb-2">
+          {title}
+        </p>
+        <p className="text-base sm:text-lg md:text-xl italic">{author}</p>
+      </div>
+    );
+  };
+
   return (
     <section className="bg-white p-6 text-dark sm:p-8 rounded-3xl shadow-lg transition-all duration-300 hover:shadow-xl hover:border-pink-300">
       <div className="flex items-center mb-6">
@@ -12,14 +29,8 @@ const NowReading = () => {
           {t("now-reading-title")}
         </h2>
       </div>
-      <div className="bg-lighter shadow-md border-2 border-base p-4 sm:p-6 rounded-2xl">
-        <p className="font-semibold text-xl sm:text-2xl md:text-3xl mb-2">
-          {t("book1-title")}
-        </p>
-        <p className="text-base sm:text-lg md:text-xl italic">
-          {t("book1-author")}
-        </p>
-      </div>
+      <Book title={t("book1-title")} author={t("book1-author")} />
+      <Book title={t("book2-title")} author={t("book2-author")} />
     </section>
   );
 };

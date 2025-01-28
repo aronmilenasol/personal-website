@@ -101,6 +101,8 @@
     "now-description": "Lo que estoy haciendo con respecto a mi carrera.",
     "now-reading-title": "Leyendo",
     "book1-title": "Programming TypeScript: Making Your JavaScript Applications Scale",
-    "book1-author": "Boris Cherny"
+    "book1-author": "Boris Cherny",
+    "book2-title": "A Philosophy of Software Design",
+    "book2-author": "John Ousterhout"
   }
 }
