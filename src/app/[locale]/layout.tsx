@@ -37,7 +37,7 @@ export default async function Layout({
 
   return (
     <html lang="en" className={lato.className}>
-      <body>
+      <body className="min-h-screen grid grid-rows-[auto_1fr_auto]">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
