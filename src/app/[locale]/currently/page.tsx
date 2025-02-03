@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import NowReading from "../components/currently/NowReading";
+import WorkingOn from "../components/currently/WorkingOn";
 
 export default function Currently() {
   const t = useTranslations("Now");
@@ -15,6 +16,7 @@ export default function Currently() {
         </p>
         <div className="space-y-8 md:space-y-12">
           <NowReading />
+          <WorkingOn />
         </div>
       </div>
     </section>

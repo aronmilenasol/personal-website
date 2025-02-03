@@ -102,6 +102,11 @@
     "book1-title": "Programming TypeScript: Making Your JavaScript Applications Scale",
     "book1-author": "Boris Cherny",
     "book2-title": "A Philosophy of Software Design",
-    "book2-author": "John Ousterhout"
+    "book2-author": "John Ousterhout",
+    "working-on-title": "Working on",
+    "working-on-project1-title": "CarreraIT",
+    "working-on-project1-description": "It's my favorite personal project: when I have free time, I usually work on it.",
+    "working-on-project2-title": "Notes on Technical Books",
+    "working-on-project2-description": "A repository where I share my notes and summaries of technical books I read."
   }
 }
