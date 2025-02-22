@@ -29,19 +29,11 @@ export default function Projects() {
           projectText={t("link")}
         />
         <ProjectCard
-          title={t("project2-title")}
-          description={t("project2-description")}
-          technologies={t("project2-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/persephone-app"
-          repositoryText={t("repository")}
-          projectText={t("link")}
-        />
-        <ProjectCard
           title={t("project4-title")}
           description={t("project4-description")}
           technologies={t("project4-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/dragdrop-message"
-          projectLink="https://dragdrop-message.vercel.app/"
+          repositoryLink="https://github.com/aronmilenait/employee-frontend"
+          projectLink="https://milenaemployeelist.vercel.app/"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
@@ -49,6 +41,15 @@ export default function Projects() {
           title={t("project5-title")}
           description={t("project5-description")}
           technologies={t("project5-technologies").split(",")}
+          repositoryLink="https://github.com/aronmilenait/dragdrop-message"
+          projectLink="https://dragdrop-message.vercel.app/"
+          repositoryText={t("repository")}
+          projectText={t("link")}
+        />
+        <ProjectCard
+          title={t("project6-title")}
+          description={t("project6-description")}
+          technologies={t("project6-technologies").split(",")}
           repositoryLink="https://github.com/aronmilenait/movie-quiz"
           projectLink="https://milenamoviequiz.vercel.app/"
           repositoryText={t("repository")}
