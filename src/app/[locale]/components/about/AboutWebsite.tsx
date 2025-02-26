@@ -6,7 +6,7 @@ const technologiesClasses =
 const AboutWebsite = () => {
   const t = useTranslations("About");
   return (
-    <div className="text-dark mt-6 md:mt-8 max-w-5xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden">
+    <div className="text-dark mt-6 md:mt-8 max-w-5xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden mb-8">
       <div className="p-8 md:p-12">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-darker leading-tight text-center">
           {t("about-website-title")}
