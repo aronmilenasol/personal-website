@@ -1,8 +1,9 @@
 {
   "Homepage": {
     "welcome": "Welcome to my website!",
-    "name": "I'm Milena Sol Aron, a Software Developer",
-    "button": "Get in touch"
+    "name": "I'm Milena Sol Aron",
+    "role": "Software Developer",
+    "button": "Contact"
   },
   "About": {
     "about-title": "About Me",
