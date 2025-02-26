@@ -7,20 +7,21 @@
   },
   "About": {
     "about-title": "Sobre mí",
-    "introduction": "Soy Milena Sol Aron, una desarrolladora de software de Argentina. Estoy trabajando en el rubro desde junio de 2023.",
-    "website": "Este sitio web es un espacio para mostrar mis proyectos personales, experiencia y habilidades, pero también para compartir pensamientos e imágenes.",
-    "carrerait": "Mi pasión por el rubro me llevó a crear y desarrollar CarreraIT, una plataforma para personas de países hispanohablantes que quieren trabajar en IT o que ya lo hacen. Ofrece encuestas, recursos gratuitos y guías de orientación.",
-    "studying": "Actualmente estoy estudiando arquitectura de software.",
+    "introduction": "Desarrolladora de software autodidacta trabajando en el rubro desde 2023. Aunque mi experiencia se centra principalmente en el desarrollo front-end, también me encanta el desarrollo back-end. Lo que más me gusta de mi trabajo es aportar soluciones, resolver problemas y realizar mejoras. También disfruto de estar en un proceso de aprendizaje constante.",
+    "linux": "Uso GNU/Linux como mi único sistema operativo desde 2015, lo que me llevó a seguir una carrera en desarrollo de software. Actualmente uso la distribución Fedora.",
     "contact": "Contacto",
     "contact-description": "Podés encontrarme en:",
     "about-website-title": "Sobre este sitio web",
     "about-website-technologies": "Las tecnologías usadas son Next.js, TypeScript, Tailwind CSS y next-intl.",
     "about-website-repository": "Ver el repositorio",
     "about-likes-title": "Me gusta...",
-    "about-likes-1": "Trabajar junto a mi gata (una de las mayores ventajas que me brinda el trabajo remoto).",
+    "about-likes-1": "Trabajar junto a mis dos gatos (una de las mayores ventajas que me brinda el trabajo remoto).",
     "about-likes-2": "El sentimiento de satisfacción posterior a resolver un problema o hacer una mejora en el código.",
     "about-likes-3": "El libro The Pragmatic Programmer, de Andy Hunt y Dave Thomas. Me enseñó muchísimas cosas que aplico en el día a día.",
-    "about-likes-4": "Mantener mi código bien estructurado y organizado. Son dos aspectos fundamentales para mí a la hora de desarrollar."
+    "about-likes-4": "Mantener mi código bien estructurado y organizado. Son dos aspectos fundamentales para mí a la hora de desarrollar.",
+    "goal-title": "Mi objetivo",
+    "goal-paragraph-1": "Cuando tenga el seniority y experiencia adecuados, me gustaría convertirme en lider técnica o arquitecta de software. Sé que todavía me queda mucho por aprender, pero me gusta orientar mi carrera hacia ese objetivo.",
+    "goal-paragraph-2": "Mientras tanto, desarrollo CarreraIT, una plataforma web para ayudar a otras personas del rubro mediante recursos gratuitos, guías y artículos de orientación que escribo y cuestionarios con feedback."
   },
   "Navbar": {
     "about": "Sobre mí",
