@@ -18,13 +18,6 @@ const ResumeEducation = () => {
         {t("education-title")}
       </h3>
       <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-base">
-        {/* OSSU */}
-        <p className={jobTitleClasses}>{t("education2-institution")}</p>
-        <p className={jobRoleClasses}>{t("education2-area")}</p>
-        <p className={timelineClasses}>{t("education2-timeline")}</p>
-        <p className={paragraphClasses}>{t("education2-description")}</p>
-      </div>
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-4 sm:mb-6 border-2 border-base">
         {/* UTN */}
         <p className={jobTitleClasses}>{t("education1-institution")}</p>
         <p className={jobRoleClasses}>{t("education1-area")}</p>

@@ -28,15 +28,17 @@ const ResumeExperience = () => {
         </p>
         <p className={timelineClasses}>{t("job3-timeline")}</p>
         <ul className="list-none mt-3">
-          {["job3-responsibility-1"].map((responsibility, index) => (
-            <li
-              key={index}
-              className={`${responsibilityClasses} flex items-start mb-2`}
-            >
-              <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-              <span>{t(responsibility)}</span>
-            </li>
-          ))}
+          {["job3-responsibility-1", "job3-responsibility-2"].map(
+            (responsibility, index) => (
+              <li
+                key={index}
+                className={`${responsibilityClasses} flex items-start mb-2`}
+              >
+                <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+                <span>{t(responsibility)}</span>
+              </li>
+            ),
+          )}
         </ul>
       </div>
 
