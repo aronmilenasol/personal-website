@@ -11,9 +11,9 @@ const likes = [
 const AboutLikes = () => {
   const t = useTranslations("About");
   return (
-    <div className="mt-6 md:mt-8 max-w-5xl w-full bg-white text-dark rounded-3xl shadow-2xl overflow-hidden">
+    <div className="mt-6 md:mt-8 max-w-5xl w-full bg-lighter text-darker rounded-3xl shadow-2xl overflow-hidden">
       <div className="p-8 md:p-12">
-        <h3 className="text-darker text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
+        <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-center">
           {t("about-likes-title")}
         </h3>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">

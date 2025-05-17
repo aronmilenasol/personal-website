@@ -2,14 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light Mode */
 :root {
-  --color-light: #d3f1df;
-  --color-lighter: #ebfff3;
-  --color-base: #85a98f;
-  --color-dark: #5a6c57;
-  --color-darker: #525b44;
+  --color-light: #e0c097;
+  --color-lighter: #fff0dc;
+  --color-base: #b85c38;
+  --color-dark: #5c3d2e;
+  --color-darker: #2d2424;
+}
+
+.dark {
+  --color-lighter: #1c1b1b;
+  --color-light: #2a2422;
+  --color-base: #d08b73;
+  --color-dark: #d9b991;
+  --color-darker: #ece8e4;
 }
 
 body {
   font-family: "Lato", sans-serif;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }

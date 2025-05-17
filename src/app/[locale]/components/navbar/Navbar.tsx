@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaBars, FaTimes, FaHeart } from "react-icons/fa";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Navbar = () => {
   const t = useTranslations("Navbar");
@@ -82,10 +83,13 @@ const Navbar = () => {
           <li className="md:flex-none">
             <button
               onClick={() => changeLocale(locale === "en" ? "es" : "en")}
-              className="bg-dark text-white font-bold py-2 px-4 rounded-full shadow-md hover:bg-darker hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+              className="bg-dark text-light font-bold py-2 px-4 rounded-full shadow-md hover:bg-darker hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
             >
               {locale === "en" ? "Español" : "English"}
             </button>
+          </li>
+          <li className="md:flex-none">
+            <ThemeSwitcher />
           </li>
         </ul>
       </nav>

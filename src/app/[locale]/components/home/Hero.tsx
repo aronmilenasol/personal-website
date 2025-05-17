@@ -8,7 +8,7 @@ const Hero = () => {
 
   return (
     <section className="bg-light text-dark flex items-center justify-center p-6 md:p-12">
-      <div className="max-w-6xl w-full bg-white rounded-3xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-3xl">
+      <div className="max-w-6xl w-full bg-lighter rounded-3xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-3xl">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="p-10 md:p-16 flex flex-col justify-center space-y-8">
             <div className="space-y-4">
@@ -23,7 +23,7 @@ const Hero = () => {
               </h3>
             </div>
             <a
-              className="group inline-flex items-center justify-center bg-base hover:bg-dark text-white font-semibold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl w-full md:w-auto"
+              className="group inline-flex items-center justify-center bg-base hover:bg-dark text-light font-semibold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl w-full md:w-auto"
               href="mailto:aronmilena.it@gmail.com"
               target="_blank"
               rel="noopener noreferrer"

@@ -4,10 +4,12 @@ import { Star, Sparkles, MapPin } from "lucide-react";
 const titleClasses =
   "font-bold text-2xl sm:text-3xl md:text-4xl mb-4 text-darker flex items-center";
 const jobTitleClasses = "font-bold text-xl sm:text-2xl text-darker mt-4";
-const jobRoleClasses = "font-bold text-lg sm:text-xl text-dark mb-2";
-const timelineClasses = "italic text-base sm:text-lg text-dark";
-const responsibilityClasses = "font-medium text-base sm:text-lg mt-2 text-dark";
-const locationClasses = "text-base sm:text-lg text-dark mb-2 flex items-center";
+const jobRoleClasses = "font-bold text-lg sm:text-xl text-darker mb-2";
+const timelineClasses = "italic text-base sm:text-lg text-darker";
+const responsibilityClasses =
+  "font-medium text-base sm:text-lg mt-2 text-darker";
+const locationClasses =
+  "text-base sm:text-lg text-darker mb-2 flex items-center";
 
 const ResumeExperience = () => {
   const t = useTranslations("Resume");
@@ -19,11 +21,11 @@ const ResumeExperience = () => {
       </h2>
 
       {/* Full Stack Developer at vWave */}
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-base">
+      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8">
         <p className={jobTitleClasses}>{t("job3-company")}</p>
         <p className={jobRoleClasses}>{t("job3-role")}</p>
         <p className={locationClasses}>
-          <MapPin className="mr-2 text-dark flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
+          <MapPin className="mr-2 text-darker flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
           {t("job3-location")}
         </p>
         <p className={timelineClasses}>{t("job3-timeline")}</p>
@@ -34,7 +36,7 @@ const ResumeExperience = () => {
                 key={index}
                 className={`${responsibilityClasses} flex items-start mb-2`}
               >
-                <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+                <Sparkles className="mr-2 text-darker flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
                 <span>{t(responsibility)}</span>
               </li>
             ),
@@ -43,11 +45,11 @@ const ResumeExperience = () => {
       </div>
 
       {/* Full Stack Developer at bitbug */}
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-base">
+      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8">
         <p className={jobTitleClasses}>{t("job2-company")}</p>
         <p className={jobRoleClasses}>{t("job2-role")}</p>
         <p className={locationClasses}>
-          <MapPin className="mr-2 text-dark flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
+          <MapPin className="mr-2 text-darker flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
           {t("job2-location")}
         </p>
         <p className={timelineClasses}>{t("job2-timeline")}</p>
@@ -58,7 +60,7 @@ const ResumeExperience = () => {
                 key={index}
                 className={`${responsibilityClasses} flex items-start mb-2`}
               >
-                <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+                <Sparkles className="mr-2 text-darker flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
                 <span>{t(responsibility)}</span>
               </li>
             ),
@@ -68,11 +70,11 @@ const ResumeExperience = () => {
 
       {/* Full Stack Developer at bigger */}
 
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-base">
+      <div className="bg-lighter p-4 text-darker sm:p-6 rounded-2xl mb-6 sm:mb-8">
         <p className={jobTitleClasses}>{t("job1-company")}</p>
         <p className={jobRoleClasses}>{t("job1-role")}</p>
         <p className={locationClasses}>
-          <MapPin className="mr-2 text-dark flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
+          <MapPin className="mr-2 flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
           {t("job1-location")}
         </p>
         <p className={timelineClasses}>{t("job1-timeline")}</p>
@@ -89,7 +91,7 @@ const ResumeExperience = () => {
               key={index}
               className={`${responsibilityClasses} flex items-start mb-2`}
             >
-              <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
+              <Sparkles className="mr-2 flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
               <span>{t(resp)}</span>
             </li>
           ))}

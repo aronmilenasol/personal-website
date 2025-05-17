@@ -20,16 +20,15 @@ const ProjectCard = ({
   repositoryText,
   projectText,
 }: ProjectCardProps) => {
-  const cardClasses =
-    "bg-white p-6 rounded-2xl mb-6 border-2 border-base shadow-lg";
+  const cardClasses = "bg-lighter p-6 rounded-2xl mb-6 shadow-lg";
   const titleClasses = "text-2xl font-bold mb-2";
   const paragraphClasses = "text-lg mb-4";
   const technologiesClasses =
-    "bg-light text-dark px-2 py-1 rounded-lg mr-2 mb-2";
+    "bg-light text-darker px-2 py-1 rounded-lg mr-2 mb-2";
   const buttonBaseClasses =
     "px-4 py-2 rounded-lg mr-2 font-semibold text-md mt-4 inline-block transition-transform transform hover:scale-105";
-  const repositoryButtonClasses = `${buttonBaseClasses} bg-light text-dark flex items-center`;
-  const linkButtonClasses = `${buttonBaseClasses} bg-base text-white flex items-center`;
+  const repositoryButtonClasses = `${buttonBaseClasses} bg-light text-darker flex items-center`;
+  const linkButtonClasses = `${buttonBaseClasses} bg-base text-lighter flex items-center`;
 
   return (
     <div className={cardClasses}>
