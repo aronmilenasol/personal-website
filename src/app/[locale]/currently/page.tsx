@@ -6,7 +6,7 @@ export default function Currently() {
   const t = useTranslations("Now");
 
   return (
-    <section className="bg-light text-dark min-h-screen flex flex-col justify-center items-center p-8 md:p-12">
+    <section className="bg-light text-darker min-h-screen flex flex-col justify-center items-center p-8 md:p-12">
       <div className="max-w-4xl w-full">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 md:mb-12 text-darker leading-tight text-center">
           {t("now-title")}
