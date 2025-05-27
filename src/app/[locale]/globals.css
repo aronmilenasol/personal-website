@@ -4,19 +4,19 @@
 
 /* Light Mode */
 :root {
-  --color-light: #e0c097;
-  --color-lighter: #fff0dc;
-  --color-base: #b85c38;
-  --color-dark: #5c3d2e;
-  --color-darker: #2d2424;
+  --color-light: #c6cdd5;
+  --color-lighter: #ecf2f8;
+  --color-base: #21262d;
+  --color-dark: #161b22;
+  --color-darker: #0d1117;
 }
 
 .dark {
-  --color-lighter: #1c1b1b;
-  --color-light: #2a2422;
-  --color-base: #d08b73;
-  --color-dark: #d9b991;
-  --color-darker: #ece8e4;
+  --color-lighter: #0d1117;
+  --color-light: #161b22;
+  --color-base: #21262d;
+  --color-dark: #c6cdd5;
+  --color-darker: #ecf2f8;
 }
 
 body {

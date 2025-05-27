@@ -21,7 +21,7 @@ const ThemeSwitcher = () => {
       <button
         onClick={() => setTheme(isDark ? "light" : "dark")}
         type="button"
-        className="bg-dark text-light font-bold py-2 px-4 rounded-full shadow-md hover:bg-darker hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+        className="bg-light text-dark font-bold py-2 px-4 rounded-full shadow-md hover:bg-lighter hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
         aria-label="Toggle Theme"
       >
         {isDark ? <Sun size={20} /> : <Moon size={20} />}

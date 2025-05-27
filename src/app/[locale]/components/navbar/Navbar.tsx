@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaBars, FaTimes, FaHeart } from "react-icons/fa";
+import { FaBars, FaTimes, FaLaptopCode } from "react-icons/fa";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import ThemeSwitcher from "./ThemeSwitcher";
@@ -24,7 +24,7 @@ const Navbar = () => {
   ];
 
   const navLinkClasses =
-    "font-bold text-xl mx-4 text-lighter hover:text-white transition duration-300 relative group";
+    "font-bold text-xl mx-4 text-light hover:text-lighter transition duration-300 relative group";
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -33,11 +33,11 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-base text-white shadow-lg">
+    <header className="bg-dark text-ligher shadow-lg">
       <nav className="container mx-auto p-4">
         <div className="md:hidden flex justify-end">
           <button
-            className="text-white focus:outline-none"
+            className="text-lighter focus:outline-none"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -57,12 +57,12 @@ const Navbar = () => {
             <Link
               href="/"
               locale={locale}
-              className="text-3xl font-extrabold text-lighter hover:text-white transition-all duration-300 transform hover:scale-105 drop-shadow-xl flex items-center"
+              className="text-3xl font-extrabold text-light hover:text-lighter transition-all duration-300 transform hover:scale-105 drop-shadow-xl flex items-center"
             >
               <span className="relative">
                 Milena Sol Aron
-                <span className="absolute -top-1 -right-6 animate-bounce">
-                  <FaHeart className="h-4 w-4" />
+                <span className="absolute -top-1 -right-6">
+                  <FaLaptopCode className="h-4 w-4" />
                 </span>
               </span>
             </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
           <li className="md:flex-none">
             <button
               onClick={() => changeLocale(locale === "en" ? "es" : "en")}
-              className="bg-dark text-light font-bold py-2 px-4 rounded-full shadow-md hover:bg-darker hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+              className="bg-light text-dark font-bold py-2 px-4 rounded-full shadow-md hover:bg-lighter hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
             >
               {locale === "en" ? "Español" : "English"}
             </button>

@@ -5,7 +5,7 @@ import { WorkingProject } from "./WorkingProject";
 const WorkingOn = () => {
   const t = useTranslations("Now");
   return (
-    <section className="bg-base p-6 text-lighter sm:p-8 rounded-3xl shadow-lg transition-all duration-300 hover:shadow-xl hover:border-pink-300">
+    <section className="p-6 text-dark sm:p-8">
       <div className="flex items-center mb-6">
         <Laptop className="w-8 h-8 sm:w-10 sm:h-10 mr-4" />
         <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl">

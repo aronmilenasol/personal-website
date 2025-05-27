@@ -28,7 +28,7 @@ const ProjectCard = ({
   const buttonBaseClasses =
     "px-4 py-2 rounded-lg mr-2 font-semibold text-md mt-4 inline-block transition-transform transform hover:scale-105";
   const repositoryButtonClasses = `${buttonBaseClasses} bg-light text-darker flex items-center`;
-  const linkButtonClasses = `${buttonBaseClasses} bg-base text-lighter flex items-center`;
+  const linkButtonClasses = `${buttonBaseClasses} bg-light text-darker flex items-center`;
 
   return (
     <div className={cardClasses}>
