@@ -22,8 +22,8 @@ const NowReading = () => {
   };
 
   return (
-    <section className="bg-base p-6 sm:p-8 rounded-3xl shadow-lg">
-      <div className="flex items-center mb-6 text-lighter">
+    <section className="p-6 sm:p-8">
+      <div className="flex items-center mb-6 text-dark">
         <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 mr-4" />
         <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl">
           {t("now-reading-title")}
