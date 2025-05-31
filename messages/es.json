@@ -7,8 +7,8 @@
   },
   "About": {
     "about-title": "Sobre mí",
-    "introduction": "Desarrolladora de software autodidacta trabajando en el rubro desde 2023. Aunque mi experiencia se centra principalmente en el desarrollo front-end, también me encanta el desarrollo back-end. Lo que más me gusta de mi trabajo es aportar soluciones, resolver problemas y realizar mejoras. También disfruto de estar en un proceso de aprendizaje constante.",
-    "linux": "Uso GNU/Linux como mi único sistema operativo desde 2015, lo que me llevó a seguir una carrera en desarrollo de software. Actualmente uso la distribución Fedora.",
+    "introduction": "Desarrolladora de software trabajando en el rubro desde 2023. Actualmente, estoy profundizando mis conocimientos en GNU/Linux y estudiando prácticas de DevOps, mientras curso la Licenciatura en Ciencias de la Computación en University of the People a mi propio ritmo.",
+    "linux": "Uso GNU/Linux como mi único sistema operativo desde 2015, lo que me llevó a seguir una carrera en IT. Actualmente uso la distribución Fedora.",
     "contact": "Contacto",
     "contact-description": "Podés encontrarme en:",
     "about-website-title": "Sobre este sitio web",
@@ -18,7 +18,7 @@
     "about-likes-1": "Trabajar junto a mis dos gatos (una de las mayores ventajas que me brinda el trabajo remoto).",
     "about-likes-2": "El sentimiento de satisfacción posterior a resolver un problema o hacer una mejora en el código.",
     "about-likes-3": "El libro The Pragmatic Programmer, de Andy Hunt y Dave Thomas. Me enseñó muchísimas cosas que aplico en el día a día.",
-    "about-likes-4": "Mantener mi código bien estructurado y organizado. Son dos aspectos fundamentales para mí a la hora de desarrollar.",
+    "about-likes-4": "Linux: realmente me encanta. Es una de mis mayores pasiones.",
     "goal-title": "Mi objetivo",
     "goal-paragraph-1": "Cuando tenga el seniority y experiencia adecuados, me gustaría convertirme en lider técnica o arquitecta de software. Sé que todavía me queda mucho por aprender, pero me gusta orientar mi carrera hacia ese objetivo.",
     "goal-paragraph-2": "Mientras tanto, desarrollo CarreraIT, una plataforma web para ayudar a otras personas del rubro mediante recursos gratuitos, guías y artículos de orientación que escribo y cuestionarios con feedback."
@@ -33,9 +33,8 @@
   "Resume": {
     "resume-title": "CV",
     "about-title": "Sobre mí",
-    "about-1": "Desarrolladora de software autodidacta con más de año y medio de experiencia, especializada en el desarrollo front-end. Lo que más me gusta de mi trabajo es poder brindar soluciones, resolver problemas y realizar mejoras, lo cual me lleva a estar en un proceso de aprendizaje constante.",
+    "about-1": "Desarrolladora de software con más de dos años de experiencia en el rubro. Actualmente, estoy profundizando mis conocimientos en GNU/Linux y estudiando prácticas de DevOps, mientras curso la Licenciatura en Ciencias de la Computación en University of the People a mi propio ritmo.",
     "about-2": "Uso GNU/Linux como mi único sistema operativo desde 2015. Actualmente, uso la distribución Fedora.",
-    "about-3": "En este momento, estoy estudiando AWS Cloud y Arquitectura de Software.",
     "experience-title": "Experiencia",
     "job3-company": "vWave eCommerce GmbH ",
     "job3-location": "Austria (Remoto)",
@@ -61,13 +60,11 @@
     "job1-responsibility-5": "Testing con Cypress y Jest.",
     "job1-responsibility-6": "Creación y gestión de tickets en ClickUp, siguiendo metodologías Agile y Scrum.",
     "education-title": "Educación",
-    "education1-institution": "Universidad Tecnológica Nacional",
-    "education1-area": "Tecnicatura en Programación",
-    "education1-timeline": "Mayo de 2024 - Octubre de 2024.",
-    "education1-description": "Cursé las materias de Programación y Sistemas Operativos, que me brindan conocimientos fundamentales en programación, GNU/Linux y C++.",
-    "skills-title": "Habilidades técnicas",
-    "skills-subtitle1": "Lenguajes de Programación",
-    "skills-subtitle2": "Frameworks, bibliotecas y otras herramientas",
+    "education1-timeline": "Junio 2025 - Junio 2028",
+    "education1-institution": "University of the People",
+    "education1-country": "Estados Unidos (Remoto)",
+    "education1-area": "Licenciatura en Ciencias de la Computación (Bachelor's Degree)",
+    "education1-description": "Actualmente estoy cursando la Licenciatura en Ciencias de la Computación en University of the People, lo que me permite estudiar a mi propio ritmo mientras continúo trabajando a tiempo completo como desarrolladora de software.",
     "languages-title": "Idiomas",
     "english": "Inglés: C2",
     "spanish": "Español: Nativo"
@@ -95,28 +92,18 @@
     "repository": "Repositorio",
     "link": "Enlace"
   },
-  "Gallery": {
-    "gallery-title": "Galería",
-    "gallery-description": "Imágenes aleatorias de mi vida.",
-    "ushuaia-island-alt": "Islas Bridges, Ushuaia.",
-    "ushuaia-landscape-alt": "Caminando hacia el Glaciar Marial.",
-    "ushuaia-mountain-alt": "Rutas de Ushuaia.",
-    "ushuaia-streets-alt": "Calles de Ushuaia.",
-    "ushuaia-national-park-alt": "Parque Nacional Tierra del Fuego",
-    "ushuaia-lake-alt": "Laguna Esmeralda, Ushuaia"
-  },
   "Now": {
     "now-title": "Actualidad",
     "now-description": "Lo que estoy haciendo con respecto a mi carrera.",
     "now-reading-title": "Leyendo",
     "book1-title": "Programming TypeScript: Making Your JavaScript Applications Scale",
     "book1-author": "Boris Cherny",
-    "book2-title": "A Philosophy of Software Design",
-    "book2-author": "John Ousterhout",
+    "book2-title": "The Linux Command Line",
+    "book2-author": "William Shotts",
     "working-on-title": "Trabajando en",
-    "working-on-project1-title": "CarreraIT",
-    "working-on-project1-description": "Es mi proyecto personal favorito: cuando tengo tiempo libre, suelo trabajar en él.",
-    "working-on-project2-title": "Notas sobre libros tecnológicos",
-    "working-on-project2-description": "Un repositorio donde comparto mis notas y resúmenes de libros técnicos que leo (en inglés)."
+    "working-on-project1-title": "Aprender DevOps y profundizar en Linux",
+    "working-on-project1-description": "Mediante cursos, libros técnicos y práctica.",
+    "working-on-project2-title": "Estudiar en University of the People",
+    "working-on-project2-description": "Estoy cursando una carrera a distancia en Ciencias de la Computación."
   }
 }
