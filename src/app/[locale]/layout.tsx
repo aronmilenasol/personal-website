@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer";
 import { Lato } from "next/font/google";
 import Script from "next/script";
+import { ThemeProvider } from "next-themes";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -36,7 +37,7 @@ export default async function Layout({
   const messages = await getMessages();
 
   return (
-    <html lang="en" className={lato.className}>
+    <html lang="en" className={lato.className} suppressHydrationWarning>
       <Script id="ms_clarity">
         {`
           (function(c,l,a,r,i,t,y){
@@ -47,11 +48,13 @@ export default async function Layout({
         `}
       </Script>
       <body className="min-h-screen grid grid-rows-[auto_1fr_auto]">
-        <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-          <Footer />
-        </NextIntlClientProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <NextIntlClientProvider messages={messages}>
+            <Navbar />
+            {children}
+            <Footer />
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

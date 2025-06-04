@@ -12,20 +12,20 @@ const NowReading = () => {
     author: string;
   }): JSX.Element => {
     return (
-      <div className="mb-4 bg-lighter shadow-md border-2 border-base p-4 sm:p-6 rounded-2xl">
+      <div className="mb-4 bg-lighter shadow-md p-4 sm:p-6 rounded-2xl">
         <p className="font-semibold text-xl sm:text-2xl md:text-3xl mb-2">
           {title}
         </p>
-        <p className="text-base sm:text-lg md:text-xl italic">{author}</p>
+        <p className="text-dark sm:text-lg md:text-xl italic">{author}</p>
       </div>
     );
   };
 
   return (
-    <section className="bg-white p-6 text-dark sm:p-8 rounded-3xl shadow-lg transition-all duration-300 hover:shadow-xl hover:border-pink-300">
-      <div className="flex items-center mb-6">
+    <section className="p-6 sm:p-8">
+      <div className="flex items-center mb-6 text-dark">
         <BookOpen className="w-8 h-8 sm:w-10 sm:h-10 mr-4" />
-        <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl text-darker">
+        <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl">
           {t("now-reading-title")}
         </h2>
       </div>

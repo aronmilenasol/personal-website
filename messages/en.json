@@ -7,8 +7,8 @@
   },
   "About": {
     "about-title": "About Me",
-    "introduction": "Self-taught software developer working in the field since 2023. Although my experience is mostly focused on front-end development, I also enjoy developing at the back-end. What I like most about my job is providing solutions, solving problems, and making improvements. I also enjoy being in a constant learning process.",
-    "linux": "I have been using GNU/Linux as my only operating system since 2015, which led me to pursue a career in Software Development. Currently, I use the Fedora distribution.",
+    "introduction": "Software developer working in the field since 2023. Currently, I'm deepening my knowledge of GNU/Linux and studying DevOps practices, while also pursuing a Bachelor's Degree in Computer Science at the University of the People at my own pace.",
+    "linux": "I have been using GNU/Linux as my only operating system since 2015, which led me to pursue a career in IT. Currently, I use the Fedora distribution.",
     "contact": "Contact",
     "contact-description": "You can find me at:",
     "about-website-title": "About this website",
@@ -18,7 +18,7 @@
     "about-likes-1": "Working with my two cats (one of the biggest advantages that working remotely gives me).",
     "about-likes-2": "The feeling of satisfaction after solving a problem or making an improvement in the code.",
     "about-likes-3": "The book The Pragmatic Programmer, by Andy Hunt and Dave Thomas. It taught me a lot of things that I apply every day.",
-    "about-likes-4": "Keeping my code well structured and organized. These are two fundamental aspects for me when developing.",
+    "about-likes-4": "Linux: I really love it. It's one of my biggest passions.",
     "goal-title": "My goal",
     "goal-paragraph-1": "When I have the appropiate seniority and experience, I would like to become a technical lead or software architect. I know I still have a lot to learn, but I like to direct my career towards that goal.",
     "goal-paragraph-2": "Meanwhile, I develop CarreraIT, a web platform to help other people in the field through free resources, orientation guides and articles that I write, and surveys with feedback."
@@ -33,9 +33,8 @@
   "Resume": {
     "resume-title": "My Resume",
     "about-title": "About me",
-    "about-1": "Self-taught software developer with more than a year and a half of experience, specializing in front-end development. What I like most about my job is being able to provide solutions, solve problems, and make improvements. I also enjoy being in a constant learning process.",
+    "about-1": "Software developer with more than two years of experience in the field.Currently, I'm deepening my knowledge of GNU/Linux and studying DevOps practices, while also pursuing a Bachelor's Degree in Computer Science at the University of the People at my own pace.",
     "about-2": "I have been using GNU/Linux as my only operating system since 2015. Currently, I use the Fedora distribution.",
-    "about-3": "I'm currently studying AWS Cloud and Software Architecture.",
     "experience-title": "Experience",
     "job3-company": "vWave eCommerce GmbH ",
     "job3-location": "Austria (Remote)",
@@ -60,13 +59,11 @@
     "job1-responsibility-5": "Testing with Cypress and Jest.",
     "job1-responsibility-6": "Create and manage tickets in ClickUp, following Agile and Scrum methodologies.",
     "education-title": "Education",
-    "education1-institution": "Universidad Tecnológica Nacional",
-    "education1-area": "Associate's Degree in Programming",
-    "education1-timeline": "May 2024 - October 2024.",
-    "education1-description": "I studied Programming and Operating Systems subjects, which provided me with foundational knowledge in programming, GNU/Linux, and C++.",
-    "skills-title": "Tech Skills",
-    "skills-subtitle1": "Programming Languages",
-    "skills-subtitle2": "Frameworks, libraries and other tools",
+    "education1-timeline": "June 2025 - June 2028",
+    "education1-institution": "University of the People",
+    "education1-country": "United States (Remote)",
+    "education1-area": "Bachelor's Degree in Computer Science",
+    "education1-description": "I'm currently pursuing a Bachelor's Degree in Computer Science at the University of the People, which allows me to study at my own pace while continuing to work full-time as a software developer.",
     "languages-title": "Languages",
     "english": "English: C2",
     "spanish": "Spanish: Native"
@@ -94,28 +91,18 @@
     "repository": "Repository",
     "link": "Link"
   },
-  "Gallery": {
-    "gallery-title": "Gallery",
-    "gallery-description": "Random images from my life.",
-    "ushuaia-island-alt": "Bridge Island, Ushuaia.",
-    "ushuaia-landscape-alt": "Walking to the Martial Glaciar.",
-    "ushuaia-mountain-alt": "Roads from Ushuaia.",
-    "ushuaia-streets-alt": "Streets from Ushuaia.",
-    "ushuaia-national-park-alt": "Tierra del Fuego National Park",
-    "ushuaia-lake-alt": "Emerald Lake, Ushuaia."
-  },
   "Now": {
     "now-title": "Now",
     "now-description": "What I've been doing regarding my career.",
     "now-reading-title": "Currently reading",
     "book1-title": "Programming TypeScript: Making Your JavaScript Applications Scale",
     "book1-author": "Boris Cherny",
-    "book2-title": "A Philosophy of Software Design",
-    "book2-author": "John Ousterhout",
+    "book2-title": "The Linux Command Line",
+    "book2-author": "William Shotts",
     "working-on-title": "Working on",
-    "working-on-project1-title": "CarreraIT",
-    "working-on-project1-description": "It's my favorite personal project: when I have free time, I usually work on it.",
-    "working-on-project2-title": "Notes on Technical Books",
-    "working-on-project2-description": "A repository where I share my notes and summaries of technical books I read."
+    "working-on-project1-title": "Learn DevOps and deepen in Linux",
+    "working-on-project1-description": "Through courses, technical books and practice.",
+    "working-on-project2-title": "Study at University of the People",
+    "working-on-project2-description": "I'm doing a Bachelor's Degree remotely in Computer Science."
   }
 }

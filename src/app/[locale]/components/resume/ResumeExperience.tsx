@@ -1,100 +1,79 @@
 import { useTranslations } from "next-intl";
-import { Star, Sparkles, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 const titleClasses =
   "font-bold text-2xl sm:text-3xl md:text-4xl mb-4 text-darker flex items-center";
-const jobTitleClasses = "font-bold text-xl sm:text-2xl text-darker mt-4";
-const jobRoleClasses = "font-bold text-lg sm:text-xl text-dark mb-2";
-const timelineClasses = "italic text-base sm:text-lg text-dark";
-const responsibilityClasses = "font-medium text-base sm:text-lg mt-2 text-dark";
-const locationClasses = "text-base sm:text-lg text-dark mb-2 flex items-center";
+const jobTitleClasses = "font-bold text-lg sm:text-xl text-darker mb-2";
+const jobRoleClasses = "font-bold text-2xl sm:text-2xl text-darker mt-4";
+const timelineClasses = "italic text-base sm:text-lg text-darker";
+const responsibilityClasses =
+  "font-medium text-base sm:text-lg mt-2 text-darker list-disc list-inside";
+const locationClasses =
+  "text-base sm:text-lg text-darker mb-2 flex items-center";
+
+interface Job {
+  company: string;
+  role: string;
+  location: string;
+  timeline: string;
+  responsibilities: string[];
+}
+const jobs: Job[] = [
+  {
+    company: "job3-company",
+    role: "job3-role",
+    location: "job3-location",
+    timeline: "job3-timeline",
+    responsibilities: ["job3-responsibility-1", "job3-responsibility-2"],
+  },
+  {
+    company: "job2-company",
+    role: "job2-role",
+    location: "job2-location",
+    timeline: "job2-timeline",
+    responsibilities: ["job2-responsibility-1", "job2-responsibility-2"],
+  },
+  {
+    company: "job1-company",
+    role: "job1-role",
+    location: "job1-location",
+    timeline: "job1-timeline",
+    responsibilities: [
+      "job1-responsibility-1",
+      "job1-responsibility-2",
+      "job1-responsibility-3",
+      "job1-responsibility-4",
+      "job1-responsibility-5",
+      "job1-responsibility-6",
+    ],
+  },
+];
 
 const ResumeExperience = () => {
   const t = useTranslations("Resume");
   return (
     <div>
-      <h2 className={titleClasses}>
-        <Star className="mr-2 text-darker w-6 h-6 sm:w-8 sm:h-8" />{" "}
-        {t("experience-title")}
-      </h2>
-
-      {/* Full Stack Developer at vWave */}
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-base">
-        <p className={jobTitleClasses}>{t("job3-company")}</p>
-        <p className={jobRoleClasses}>{t("job3-role")}</p>
-        <p className={locationClasses}>
-          <MapPin className="mr-2 text-dark flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
-          {t("job3-location")}
-        </p>
-        <p className={timelineClasses}>{t("job3-timeline")}</p>
-        <ul className="list-none mt-3">
-          {["job3-responsibility-1", "job3-responsibility-2"].map(
-            (responsibility, index) => (
-              <li
-                key={index}
-                className={`${responsibilityClasses} flex items-start mb-2`}
-              >
-                <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-                <span>{t(responsibility)}</span>
+      <h2 className={titleClasses}>{t("experience-title")}</h2>
+      {jobs.map((job, index) => (
+        <div key={index}>
+          <p className={jobRoleClasses}>{t(job.role)}</p>
+          <p className={`${jobTitleClasses} flex items-center`}>
+            {t(job.company)}
+          </p>
+          <p className={locationClasses}>
+            <MapPin className="mr-2" />
+            {t(job.location)}
+          </p>
+          <p className={timelineClasses}>{t(job.timeline)}</p>
+          <ul className="mt-2 mb-2">
+            {job.responsibilities.map((responsibility, index) => (
+              <li key={index} className={responsibilityClasses}>
+                {t(responsibility)}
               </li>
-            ),
-          )}
-        </ul>
-      </div>
-
-      {/* Full Stack Developer at bitbug */}
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-base">
-        <p className={jobTitleClasses}>{t("job2-company")}</p>
-        <p className={jobRoleClasses}>{t("job2-role")}</p>
-        <p className={locationClasses}>
-          <MapPin className="mr-2 text-dark flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
-          {t("job2-location")}
-        </p>
-        <p className={timelineClasses}>{t("job2-timeline")}</p>
-        <ul className="list-none mt-3">
-          {["job2-responsibility-1", "job2-responsibility-2"].map(
-            (responsibility, index) => (
-              <li
-                key={index}
-                className={`${responsibilityClasses} flex items-start mb-2`}
-              >
-                <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-                <span>{t(responsibility)}</span>
-              </li>
-            ),
-          )}
-        </ul>
-      </div>
-
-      {/* Full Stack Developer at bigger */}
-
-      <div className="bg-lighter p-4 sm:p-6 rounded-2xl mb-6 sm:mb-8 border-2 border-base">
-        <p className={jobTitleClasses}>{t("job1-company")}</p>
-        <p className={jobRoleClasses}>{t("job1-role")}</p>
-        <p className={locationClasses}>
-          <MapPin className="mr-2 text-dark flex-shrink-0 w-4 h-4 sm:w-5 sm:h-5" />
-          {t("job1-location")}
-        </p>
-        <p className={timelineClasses}>{t("job1-timeline")}</p>
-        <ul className="list-none mt-3">
-          {[
-            "job1-responsibility-1",
-            "job1-responsibility-2",
-            "job1-responsibility-3",
-            "job1-responsibility-4",
-            "job1-responsibility-5",
-            "job1-responsibility-6",
-          ].map((resp, index) => (
-            <li
-              key={index}
-              className={`${responsibilityClasses} flex items-start mb-2`}
-            >
-              <Sparkles className="mr-2 text-dark flex-shrink-0 mt-1 w-4 h-4 sm:w-5 sm:h-5" />
-              <span>{t(resp)}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
+            ))}
+          </ul>
+        </div>
+      ))}
     </div>
   );
 };
