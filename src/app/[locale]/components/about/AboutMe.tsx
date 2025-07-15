@@ -14,6 +14,7 @@ const AboutMe = () => {
           <div className="text-center space-y-4">
             <p className={paragraphClasses}>{t("introduction")}</p>
             <p className={paragraphClasses}>{t("linux")}</p>
+            <p className={paragraphClasses}>{t("currently")}</p>
           </div>
         </div>
       </div>

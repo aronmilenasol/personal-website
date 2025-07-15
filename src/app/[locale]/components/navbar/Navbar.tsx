@@ -20,7 +20,6 @@ const Navbar = () => {
     { label: t("about"), href: "/about" },
     { label: t("projects"), href: "/projects" },
     { label: t("resume"), href: "/resume" },
-    { label: t("currently"), href: "/currently" },
   ];
 
   const navLinkClasses =
