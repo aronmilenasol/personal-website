@@ -14,6 +14,14 @@ export default function Projects() {
           title={t("project1-title")}
           description={t("project1-description")}
           technologies={t("project1-technologies").split(",")}
+          repositoryLink="https://github.com/aronmilenait/system-monitor"
+          repositoryText={t("repository")}
+          projectText={t("link")}
+        />
+        <ProjectCard
+          title={t("project2-title")}
+          description={t("project2-description")}
+          technologies={t("project2-technologies").split(",")}
           repositoryLink="https://github.com/aronmilenait/carrerait-roadmap"
           projectLink="https://carrerait.lat"
           repositoryText={t("repository")}

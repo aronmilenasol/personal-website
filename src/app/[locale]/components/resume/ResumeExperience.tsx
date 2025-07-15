@@ -24,14 +24,18 @@ const jobs: Job[] = [
     role: "job3-role",
     location: "job3-location",
     timeline: "job3-timeline",
-    responsibilities: ["job3-responsibility-1", "job3-responsibility-2"],
+    responsibilities: [
+      "job3-responsibility-1",
+      "job3-responsibility-2",
+      "job3-responsibility-3",
+    ],
   },
   {
     company: "job2-company",
     role: "job2-role",
     location: "job2-location",
     timeline: "job2-timeline",
-    responsibilities: ["job2-responsibility-1", "job2-responsibility-2"],
+    responsibilities: ["job2-responsibility-1"],
   },
   {
     company: "job1-company",
@@ -44,7 +48,6 @@ const jobs: Job[] = [
       "job1-responsibility-3",
       "job1-responsibility-4",
       "job1-responsibility-5",
-      "job1-responsibility-6",
     ],
   },
 ];
