@@ -27,8 +27,7 @@
     "about": "Sobre mí",
     "resume": "CV",
     "projects": "Proyectos",
-    "gallery": "Galería",
-    "currently": "Actualidad"
+    "blog": "Blog"
   },
   "Resume": {
     "resume-title": "CV",
@@ -79,25 +78,20 @@
   },
   "Projects": {
     "projects-title": "Proyectos",
-    "project1-title": "System Monitor",
-    "project1-description": "Scripts y herramientas para monitorear el uso de RAM/CPU en sistemas Linux.",
-    "project1-technologies": "Bash, Docker, GitHub Actions, Prometheus, Grafana",
-    "project2-title": "CarreraIT",
-    "project2-description": "Plataforma web para personas interesadas o que trabajan en IT.",
-    "project2-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel",
-    "project3-title": "Vwave Shipping",
-    "project3-description": "Plataforma web para crear y ver etiquetas de envío.",
-    "project3-technologies": "Express.js, MongoDB, TypeScript, React.js, Tailwind CSS, Vite, Vitest",
-    "project4-title": "Employee List",
-    "project4-description": "Plataforma web para visualizar empleados.",
-    "project4-technologies": "React.js, TypeScript, Tailwind CSS, Nest.js, MySQL, Docker, TypeORM, Faker.js, Vite",
-    "project5-title": "Drag & Drop",
-    "project5-description": "Drag & drop simple, con una apariencia de iOS moderna.",
-    "project5-technologies": "Vite, JavaScript, React.js, Tailwind CSS",
-    "project6-title": "Movie Quiz",
-    "project6-description": "Landing page donde los usuarios pueden explorar una selección de películas.",
-    "project6-technologies": "JavaScript, HTML, CSS",
+    "project1-title": "Homelab",
+    "project1-description": "Un homelab personal para experimentar con DevOps, SRE, y herramientas Linux en hardware físico.",
+    "project1-technologies": "Linux, DevOps, SRE",
+    "project2-title": "System Monitor",
+    "project2-description": "Scripts y herramientas para monitorear el uso de RAM/CPU en sistemas Linux.",
+    "project2-technologies": "Bash, Docker, GitHub Actions, Prometheus, Grafana",
+    "project3-title": "CarreraIT",
+    "project3-description": "Plataforma web para personas interesadas o que trabajan en IT.",
+    "project3-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel",
     "repository": "Repositorio",
     "link": "Enlace"
+  },
+  "Blog": {
+    "title": "Blog",
+    "description": "Artículos sobre DevOps, SRE y Linux."
   }
 }
