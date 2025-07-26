@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
 
 export default {
   darkMode: "class",
@@ -9,6 +10,26 @@ export default {
   ],
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            h1: { color: "var(--color-darker)" },
+            h2: { color: "var(--color-darker)" },
+            h3: { color: "var(--color-darker)" },
+            strong: { color: "var(--color-darker)" },
+            b: { color: "var(--color-darker)" },
+          },
+        },
+        dark: {
+          css: {
+            h1: { color: "var(--color-darker)" },
+            h2: { color: "var(--color-darker)" },
+            h3: { color: "var(--color-darker)" },
+            strong: { color: "var(--color-darker)" },
+            b: { color: "var(--color-darker)" },
+          },
+        },
+      },
       colors: {
         light: "var(--color-light)",
         lighter: "var(--color-lighter)",
@@ -18,5 +39,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 } as Config;
