@@ -3,13 +3,14 @@ import { getAllPostsMeta } from "../../../../lib/blog";
 import { getTranslations } from "next-intl/server";
 
 type Props = {
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 };
 
 export default async function Blog({ params }: Props) {
-  const posts = await getAllPostsMeta(params.locale);
+  const { locale } = await params;
+  const posts = await getAllPostsMeta(locale);
   const t = await getTranslations("Blog");
 
   return (
@@ -24,7 +25,7 @@ export default async function Blog({ params }: Props) {
         {posts.map((post) => (
           <Link
             key={post.slug}
-            href={`/${params.locale}/blog/${post.slug}`}
+            href={`/${locale}/blog/${post.slug}`}
             className="block"
           >
             <div className="bg-lighter p-6 rounded-2xl mb-6 shadow-lg">
