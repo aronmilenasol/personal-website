@@ -1,6 +1,6 @@
 ---
 title: "Cómo usar una notebook o computadora vieja como homelab"
-date: "2025-07-21"
+date: "2025-07-26"
 description: "Si tenés una computadora o notebook vieja que ya no estás usando, podés transformarla en un homelab. En este artículo, te cuento cómo lo hice yo y te doy ideas para aprovecharla al máximo."
 ---
 
@@ -32,7 +32,7 @@ En mi [repositorio de homelab](https://github.com/aronmilenait/homelab) (en prog
 
 ## Alternativas para no depender de la terminal
 
-No es obligatorio usar una distribución de Linux pensada como servidor. Podés aprovechar entornos de escritorio ligeros que incluyan GUI, como **Lubuntu** o **Debian con XFCE o LXDE**.
+No es obligatorio usar una distribución de Linux pensada como servidor. Podés aprovechar entornos de escritorio ligeros que incluyan GUI, como Lubuntu o Debian con XFCE o LXDE.
 
 Sin embargo, una de las ventajas de no usar entorno gráfico es el menor consumo de recursos. Si tu hardware es limitado, probablemente te convenga usar una distribución sin GUI.
 
