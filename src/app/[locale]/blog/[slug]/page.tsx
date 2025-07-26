@@ -2,14 +2,15 @@ import { getPost } from "../../../../../lib/blog";
 import { notFound } from "next/navigation";
 
 interface Params {
-  params: {
+  params: Promise<{
     locale: string;
     slug: string;
-  };
+  }>;
 }
 
 export default async function BlogPost({ params }: Params) {
   const { locale, slug } = await params;
+
   try {
     const post = await getPost(locale, slug);
     return (
