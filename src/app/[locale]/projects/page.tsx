@@ -14,7 +14,7 @@ export default function Projects() {
           title={t("project1-title")}
           description={t("project1-description")}
           technologies={t("project1-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/system-monitor"
+          repositoryLink="https://github.com/aronmilenait/homelab"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
@@ -22,8 +22,7 @@ export default function Projects() {
           title={t("project2-title")}
           description={t("project2-description")}
           technologies={t("project2-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/carrerait-roadmap"
-          projectLink="https://carrerait.lat"
+          repositoryLink="https://github.com/aronmilenait/system-monitor"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
@@ -31,37 +30,10 @@ export default function Projects() {
           title={t("project3-title")}
           description={t("project3-description")}
           technologies={t("project3-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/vwave-challenge"
-          projectLink="https://vwavechallenge.vercel.app/"
+          repositoryLink="https://github.com/aronmilenait/carrerait-roadmap"
           repositoryText={t("repository")}
           projectText={t("link")}
-        />
-        <ProjectCard
-          title={t("project4-title")}
-          description={t("project4-description")}
-          technologies={t("project4-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/employee-frontend"
-          projectLink="https://milenaemployeelist.vercel.app/"
-          repositoryText={t("repository")}
-          projectText={t("link")}
-        />
-        <ProjectCard
-          title={t("project5-title")}
-          description={t("project5-description")}
-          technologies={t("project5-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/dragdrop-message"
-          projectLink="https://dragdrop-message.vercel.app/"
-          repositoryText={t("repository")}
-          projectText={t("link")}
-        />
-        <ProjectCard
-          title={t("project6-title")}
-          description={t("project6-description")}
-          technologies={t("project6-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/movie-quiz"
-          projectLink="https://milenamoviequiz.vercel.app/"
-          repositoryText={t("repository")}
-          projectText={t("link")}
+          projectLink="https://carrerait.lat"
         />
       </div>
     </section>

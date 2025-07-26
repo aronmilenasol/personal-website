@@ -27,7 +27,8 @@
   "Navbar": {
     "about": "About",
     "resume": "Resume",
-    "projects": "Projects"
+    "projects": "Projects",
+    "blog": "Blog"
   },
   "Resume": {
     "resume-title": "My Resume",
@@ -89,5 +90,9 @@
     "project3-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel",
     "repository": "Repository",
     "link": "Link"
+  },
+  "Blog": {
+    "title": "Blog",
+    "description": "Articles about DevOps, SRE and Linux"
   }
 }
