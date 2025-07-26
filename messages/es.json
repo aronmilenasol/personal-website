@@ -27,8 +27,7 @@
     "about": "Sobre mí",
     "resume": "CV",
     "projects": "Proyectos",
-    "gallery": "Galería",
-    "currently": "Actualidad"
+    "blog": "Blog"
   },
   "Resume": {
     "resume-title": "CV",
@@ -90,5 +89,9 @@
     "project3-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel",
     "repository": "Repositorio",
     "link": "Enlace"
+  },
+  "Blog": {
+    "title": "Blog",
+    "description": "Artículos sobre DevOps, SRE y Linux."
   }
 }
