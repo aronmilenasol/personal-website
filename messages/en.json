@@ -2,7 +2,7 @@
   "Homepage": {
     "welcome": "Welcome to my website!",
     "name": "I'm Milena Sol Aron",
-    "role": "Software Developer focused on DevOps and Site Reliability Engineering (SRE)",
+    "role": "DevOps and Site Reliability Engineering (SRE)",
     "button": "Contact"
   },
   "About": {
@@ -13,16 +13,8 @@
     "contact": "Contact",
     "contact-description": "You can find me at:",
     "about-website-title": "About this website",
-    "about-website-technologies": "The technologies used are Next.js, TypeScript, Tailwind CSS, and next-intl.",
-    "about-website-repository": "View the repository",
-    "about-likes-title": "I like...",
-    "about-likes-1": "Working with my two cats (one of the biggest advantages that working remotely gives me).",
-    "about-likes-2": "The feeling of satisfaction after solving a problem or making an improvement in the code.",
-    "about-likes-3": "The book The Pragmatic Programmer, by Andy Hunt and Dave Thomas. It taught me a lot of things that I apply every day.",
-    "about-likes-4": "Linux: I really love it. It's one of my biggest passions.",
-    "goal-title": "My goal",
-    "goal-paragraph-1": "When I have the appropiate seniority and experience, I would like to become a technical lead or software architect. I know I still have a lot to learn, but I like to direct my career towards that goal.",
-    "goal-paragraph-2": "Meanwhile, I develop CarreraIT, a web platform to help other people in the field through free resources, orientation guides and articles that I write, and surveys with feedback."
+    "about-website-technologies": "The technologies used are Next.js, TypeScript, Tailwind CSS, Remark and next-intl.",
+    "about-website-repository": "View the repository"
   },
   "Navbar": {
     "about": "About",
@@ -38,7 +30,7 @@
     "experience-title": "Experience",
     "job3-company": "vWave eCommerce GmbH ",
     "job3-location": "Austria (Remote)",
-    "job3-role": "Full Stack Developer",
+    "job3-role": "Full Stack Developer & DevOps",
     "job3-timeline": "March 2025 - Present",
     "job3-responsibility-1": "Development of custom Shopify apps using Meteor, TypeScript, React.js, Express.js, GraphQL, and MongoDB.",
     "job3-responsibility-2": "Design and implement GitLab CI/CD pipelines to automate code linting, testing, building, and deployment workflows.",
@@ -67,10 +59,10 @@
     "certification1-institution": "Amazon Web Services (AWS)",
     "certification1-date": "2024",
     "certification1-name": "AWS Cloud Practitioner Essentials Course",
-    "certification2-institution": "Linux Foundation (LF)",
+    "certification2-institution": "Linux Foundation",
     "certification2-date": "2025",
     "certification2-name": "Introduction to Linux (LFS101)",
-    "certification3-institution": "Linux Foundation (LF)",
+    "certification3-institution": "Linux Foundation",
     "certification3-date": "2025",
     "certification3-name": "Introduction to DevOps and Site Reliability Engineering (LFS162)",
     "languages-title": "Languages",

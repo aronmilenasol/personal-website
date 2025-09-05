@@ -2,7 +2,7 @@
   "Homepage": {
     "welcome": "¡Bienvenido a mi sitio web!",
     "name": "Soy Milena Sol Aron",
-    "role": "Desarrolladora de software enfocada en DevOps y Site Reliability Engineering (SRE)"
+    "role": "DevOps y Site Reliability Engineering (SRE)"
   },
   "About": {
     "about-title": "Sobre mí",
@@ -12,16 +12,8 @@
     "contact": "Contacto",
     "contact-description": "Podés encontrarme en:",
     "about-website-title": "Sobre este sitio web",
-    "about-website-technologies": "Las tecnologías usadas son Next.js, TypeScript, Tailwind CSS y next-intl.",
-    "about-website-repository": "Ver el repositorio",
-    "about-likes-title": "Me gusta...",
-    "about-likes-1": "Trabajar junto a mis dos gatos (una de las mayores ventajas que me brinda el trabajo remoto).",
-    "about-likes-2": "El sentimiento de satisfacción posterior a resolver un problema o hacer una mejora en el código.",
-    "about-likes-3": "El libro The Pragmatic Programmer, de Andy Hunt y Dave Thomas. Me enseñó muchísimas cosas que aplico en el día a día.",
-    "about-likes-4": "Linux: realmente me encanta. Es una de mis mayores pasiones.",
-    "goal-title": "Mi objetivo",
-    "goal-paragraph-1": "Cuando tenga el seniority y experiencia adecuados, me gustaría convertirme en lider técnica o arquitecta de software. Sé que todavía me queda mucho por aprender, pero me gusta orientar mi carrera hacia ese objetivo.",
-    "goal-paragraph-2": "Mientras tanto, desarrollo CarreraIT, una plataforma web para ayudar a otras personas del rubro mediante recursos gratuitos, guías y artículos de orientación que escribo y cuestionarios con feedback."
+    "about-website-technologies": "Las tecnologías usadas son Next.js, TypeScript, Tailwind CSS, Remark y next-intl.",
+    "about-website-repository": "Ver el repositorio"
   },
   "Navbar": {
     "about": "Sobre mí",
@@ -35,9 +27,9 @@
     "about-1": "Desarrolladora de software con más de dos años de experiencia en el rubro. Actualmente, estoy profundizando mis conocimientos en GNU/Linux y estudiando prácticas de DevOps, mientras curso la Licenciatura en Ciencias de la Computación en University of the People a mi propio ritmo.",
     "about-2": "Uso GNU/Linux como mi único sistema operativo desde 2015. Actualmente, uso la distribución Fedora.",
     "experience-title": "Experiencia",
-    "job3-company": "vWave eCommerce GmbH ",
+    "job3-company": "vWave eCommerce GmbH",
     "job3-location": "Austria (Remoto)",
-    "job3-role": "Desarrolladora Full Stack",
+    "job3-role": "Desarrolladora Full Stack & DevOps",
     "job3-timeline": "Marzo de 2025 - Actualidad",
     "job3-responsibility-1": "Desarrollo de aplicaciones personalizadas de Shopify utilizando Meteor, TypeScript, React.js, Express.js, GraphQL y MongoDB.",
     "job3-responsibility-2": "Diseño e implementación de pipelines de CI/CD con GitLab para automatizar procesos de linting, testing, build y deployment.",
@@ -66,10 +58,10 @@
     "certification1-institution": "Amazon Web Services (AWS)",
     "certification1-date": "2024",
     "certification1-name": "AWS Cloud Practitioner Essentials Course",
-    "certification2-institution": "Linux Foundation (LF)",
+    "certification2-institution": "Linux Foundation",
     "certification2-date": "2025",
     "certification2-name": "Introduction to Linux (LFS101)",
-    "certification3-institution": "Linux Foundation (LF)",
+    "certification3-institution": "Linux Foundation",
     "certification3-date": "2025",
     "certification3-name": "Introduction to DevOps and Site Reliability Engineering (LFS162)",
     "languages-title": "Idiomas",

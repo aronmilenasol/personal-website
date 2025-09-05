@@ -29,7 +29,7 @@ In my case, I started by:
 - Running containers with Docker
 - Deploying a monitoring stack with Prometheus + Grafana
 
-In my [homelab repository](https://github.com/aronmilenait/homelab) (a work in progress, but growing week by week), you can find ideas that might be useful if you're interested in building your own DevOps and/or SRE "lab".
+In my [homelab repository](https://github.com/aronmilenasol/homelab) (a work in progress, but growing week by week), you can find ideas that might be useful if you're interested in building your own DevOps and/or SRE "lab".
 
 ## Alternatives to avoid depending on the terminal
 
