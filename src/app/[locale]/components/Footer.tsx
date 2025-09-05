@@ -18,7 +18,7 @@ const Footer = () => {
             <FaLinkedin size={36} />
           </a>
           <a
-            href="https://github.com/aronmilenait"
+            href="https://github.com/aronmilenasol"
             target="_blank"
             rel="noopener noreferrer"
             className={iconClasses}

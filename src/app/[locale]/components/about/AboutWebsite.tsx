@@ -18,7 +18,7 @@ const AboutWebsite = () => {
           <div className="mt-8 flex flex-col items-center">
             <a
               className="text-center bg-dark hover:bg-darker text-lighter font-semibold py-3 px-6 rounded-full shadow-md transition-colors duration-300 w-full md:w-auto"
-              href="https://github.com/aronmilenait/personal-website"
+              href="https://github.com/aronmilenasol/personal-website"
               target="_blank"
               rel="noopener noreferrer"
             >

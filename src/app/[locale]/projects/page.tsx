@@ -14,7 +14,7 @@ export default function Projects() {
           title={t("project1-title")}
           description={t("project1-description")}
           technologies={t("project1-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/homelab"
+          repositoryLink="https://github.com/aronmilenasol/homelab"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
@@ -22,7 +22,7 @@ export default function Projects() {
           title={t("project2-title")}
           description={t("project2-description")}
           technologies={t("project2-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/system-monitor"
+          repositoryLink="https://github.com/aronmilenasol/system-monitor"
           repositoryText={t("repository")}
           projectText={t("link")}
         />
@@ -30,7 +30,7 @@ export default function Projects() {
           title={t("project3-title")}
           description={t("project3-description")}
           technologies={t("project3-technologies").split(",")}
-          repositoryLink="https://github.com/aronmilenait/carrerait-roadmap"
+          repositoryLink="https://github.com/aronmilenasol/carrerait-roadmap"
           repositoryText={t("repository")}
           projectText={t("link")}
           projectLink="https://carrerait.lat"
