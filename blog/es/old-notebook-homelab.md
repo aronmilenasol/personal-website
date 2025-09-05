@@ -28,7 +28,7 @@ En mi caso, empecé por:
 - Correr contenedores con Docker
 - Levantar un stack de monitoreo con Prometheus + Grafana
 
-En mi [repositorio de homelab](https://github.com/aronmilenait/homelab) (en progreso, pero creciendo semana a semana), podés encontrar ideas que pueden servirte si te interesa tener un “laboratorio” de DevOps y/o SRE.
+En mi [repositorio de homelab](https://github.com/aronmilenasol/homelab) (en progreso, pero creciendo semana a semana), podés encontrar ideas que pueden servirte si te interesa tener un “laboratorio” de DevOps y/o SRE.
 
 ## Alternativas para no depender de la terminal
 
