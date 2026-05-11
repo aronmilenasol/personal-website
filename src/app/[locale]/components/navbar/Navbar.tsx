@@ -17,78 +17,63 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { label: t("about"), href: "/about" },
     { label: t("projects"), href: "/projects" },
     { label: t("resume"), href: "/resume" },
     { label: t("blog"), href: "/blog" },
   ];
 
-  const navLinkClasses =
-    "font-bold text-xl mx-4 text-light hover:text-lighter transition duration-300 relative group";
-
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
-    <header className="bg-dark text-ligher shadow-lg">
-      <nav className="container mx-auto p-4">
+    <header className="bg-dark text-light border-b border-light/20">
+      <nav className="max-w-5xl mx-auto px-6 py-4">
         <div className="md:hidden flex justify-end">
           <button
-            className="text-lighter focus:outline-none"
-            onClick={toggleMenu}
+            className="text-light"
+            onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
-            {menuOpen ? (
-              <FaTimes className="h-8 w-8" />
-            ) : (
-              <FaBars className="h-8 w-8" />
-            )}
+            {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
+
         <ul
-          className={`flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:justify-between ${
-            menuOpen ? "block" : "hidden"
+          className={`flex flex-col md:flex-row items-center gap-8 md:gap-10 ${
+            menuOpen ? "flex" : "hidden"
           } md:flex`}
         >
-          <li className="md:flex-none">
+          <li>
             <Link
               href="/"
               locale={locale}
-              className="text-3xl font-extrabold text-light hover:text-lighter transition-all duration-300 transform hover:scale-105 drop-shadow-xl flex items-center"
+              className="text-xl font-medium tracking-wide flex items-center gap-2 hover:opacity-80"
             >
-              <span className="relative">
-                Milena Sol Aron
-                <span className="absolute -top-1 -right-6">
-                  <FaLaptopCode className="h-4 w-4" />
-                </span>
-              </span>
+              Milena Sol Aron
+              <FaLaptopCode className="text-sm opacity-70" />
             </Link>
           </li>
-          <div className="flex flex-col md:flex-row justify-center items-center space-x-2 md:space-x-4 mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-6 mx-auto">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
                   locale={locale}
-                  className={navLinkClasses}
+                  className="relative opacity-90 hover:opacity-100 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-px after:bg-light after:transition-all hover:after:w-full"
                 >
                   {link.label}
                 </Link>
               </li>
             ))}
           </div>
-          <li className="md:flex-none">
+          <li>
             <button
               onClick={() => changeLocale(locale === "en" ? "es" : "en")}
-              className="bg-light text-dark font-bold py-2 px-4 rounded-full shadow-md hover:bg-lighter hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
+              className="opacity-80 hover:opacity-100 underline-offset-4 hover:underline"
             >
-              {locale === "en" ? "Español" : "English"}
+              {locale === "en" ? "ES" : "EN"}
             </button>
           </li>
-          <li className="md:flex-none">
+          <li>
             <ThemeSwitcher />
           </li>
         </ul>

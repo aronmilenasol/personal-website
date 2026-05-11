@@ -1,14 +1,10 @@
 import { useTranslations } from "next-intl";
 
-const titleClasses =
-  "font-bold text-2xl sm:text-3xl md:text-4xl mb-4 text-darker flex items-center";
-const nameClasses = "text-lg sm:text-xl text-darker mb-2";
-const institutionClasses = "font-bold text-2xl sm:text-2xl text-darker mt-4";
-
 interface Certificate {
   institution: string;
   name: string;
 }
+
 const certificates: Certificate[] = [
   {
     institution: "certification1-institution",
@@ -26,18 +22,23 @@ const certificates: Certificate[] = [
 
 const ResumeCertifications = () => {
   const t = useTranslations("Resume");
+
   return (
-    <div>
-      <h2 className={titleClasses}>{t("certifications-title")}</h2>
+    <section className="mt-10">
+      <h2 className="text-xl font-medium mb-8 tracking-tight">
+        {t("certifications-title")}
+      </h2>
+
       {certificates.map((certificate, index) => (
-        <div key={index}>
-          <p className={institutionClasses}>{t(certificate.institution)}</p>
-          <p className={`${nameClasses} flex items-center`}>
-            {t(certificate.name)}
+        <div key={index} className="mb-8">
+          <p className="font-medium">{t(certificate.name)}</p>
+
+          <p className="text-sm opacity-70 mt-1">
+            {t(certificate.institution)}
           </p>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 
