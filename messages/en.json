@@ -2,14 +2,13 @@
   "Homepage": {
     "welcome": "Welcome to my website!",
     "name": "I'm Milena Sol Aron",
-    "role": "DevOps and Site Reliability Engineering (SRE)",
+    "role": "Software Developer - DevOps & SRE",
     "button": "Contact"
   },
   "About": {
     "about-title": "About Me",
-    "introduction": "I'm Milena Sol Aron, a Software Developer based in Argentina, currently transitioning into DevOps and Site Reliability Engineering (SRE). I have over two years of experience in the field, as I started working as a Software Developer in 2023.",
-    "currently": "I'm pursuing a Bachelor's Degree in Computer Science at the University of the People, which allows me to continue working full time as a Software Developer while studying DevOps and SRE at my own pace.",
-    "linux": "My interest in IT began when I was eight years old, creating and designing my own blog using HTML and CSS. However, my true passion for technology deepened in 2015, when I started using Linux at the age of 13. Since then, I haven't stopped using it, and my love for this operating system has only grown.",
+    "introduction": "Software Engineer based in Argentina working in a role that combines Software Development, DevOps, and Site Reliability Engineering (SRE). I currently work on custom DHL Shopify applications used by 30,000+ users, focusing on reliability, automation, and maintainable software. I work daily with Linux (Fedora, openSUSE), and also have experience with Debian, Arch Linux, and Ubuntu environments.",
+    "writer": "Sometimes, after work or during weekends, I write science fiction, fantasy and IT books under the imprint I founded, Voxades.",
     "contact": "Contact",
     "contact-description": "You can find me at:",
     "about-website-title": "About this website",

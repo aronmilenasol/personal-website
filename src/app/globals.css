@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+:root {
+  --color-lighter: #f5ecd9; 
+  --color-light: #e6d5b8;   
+  --color-base: #5c4a3a;    
+  --color-dark: #3b2f25;   
+  --color-darker: #2a221b; 
+}
+
+
+.dark {
+  --color-lighter: #2a221b;
+  --color-light: #3b2f25;
+  --color-base: #e6d5b8;
+  --color-dark: #f5ecd9;
+  --color-darker: #fff7e6;
+}
+
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
