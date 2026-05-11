@@ -1,16 +1,6 @@
 import { useTranslations } from "next-intl";
 import { MapPin } from "lucide-react";
 
-const titleClasses =
-  "font-bold text-2xl sm:text-3xl md:text-4xl mb-4 text-darker flex items-center";
-const jobTitleClasses = "font-bold text-lg sm:text-xl text-darker mb-2";
-const jobRoleClasses = "font-bold text-2xl sm:text-2xl text-darker mt-4";
-const timelineClasses = "italic text-base sm:text-lg text-darker";
-const responsibilityClasses =
-  "font-medium text-base sm:text-lg mt-2 text-darker list-disc list-inside";
-const locationClasses =
-  "text-base sm:text-lg text-darker mb-2 flex items-center";
-
 interface Job {
   company: string;
   role: string;
@@ -18,6 +8,7 @@ interface Job {
   timeline: string;
   responsibilities: string[];
 }
+
 const jobs: Job[] = [
   {
     company: "job3-company",
@@ -54,30 +45,30 @@ const jobs: Job[] = [
 
 const ResumeExperience = () => {
   const t = useTranslations("Resume");
+
   return (
-    <div>
-      <h2 className={titleClasses}>{t("experience-title")}</h2>
+    <section>
+      <h2 className="text-xl font-medium mb-8 tracking-tight">
+        {t("experience-title")}
+      </h2>
+
       {jobs.map((job, index) => (
-        <div key={index}>
-          <p className={jobRoleClasses}>{t(job.role)}</p>
-          <p className={`${jobTitleClasses} flex items-center`}>
-            {t(job.company)}
-          </p>
-          <p className={locationClasses}>
-            <MapPin className="mr-2" />
+        <div key={index} className="mb-10">
+          <p className="font-medium">{t(job.role)}</p>
+          <p className="opacity-90">{t(job.company)}</p>
+          <p className="flex items-center gap-2 text-sm opacity-70 mt-1">
+            <MapPin size={14} />
             {t(job.location)}
           </p>
-          <p className={timelineClasses}>{t(job.timeline)}</p>
-          <ul className="mt-2 mb-2">
-            {job.responsibilities.map((responsibility, index) => (
-              <li key={index} className={responsibilityClasses}>
-                {t(responsibility)}
-              </li>
+          <p className="text-sm italic opacity-60 mt-1">{t(job.timeline)}</p>
+          <ul className="mt-3 space-y-1 list-disc list-inside text-sm opacity-85">
+            {job.responsibilities.map((responsibility, i) => (
+              <li key={i}>{t(responsibility)}</li>
             ))}
           </ul>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

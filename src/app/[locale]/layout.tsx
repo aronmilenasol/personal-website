@@ -3,21 +3,21 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/app/globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer";
-import { Lato } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 
-const lato = Lato({
+const plexMono = IBM_Plex_Mono({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
   title: "Milena Sol Aron",
-  description: "My personal website and portfolio as a Software Developer.",
+  description: "Personal website & portfolio.",
 };
 
 export default async function Layout({
@@ -37,7 +37,7 @@ export default async function Layout({
   const messages = await getMessages();
 
   return (
-    <html lang="en" className={lato.className} suppressHydrationWarning>
+    <html lang={locale} className={plexMono.className} suppressHydrationWarning>
       <Script id="ms_clarity">
         {`
           (function(c,l,a,r,i,t,y){
@@ -47,7 +47,8 @@ export default async function Layout({
       })(window, document, "clarity", "script", "rhiu1bv5a5");
         `}
       </Script>
-      <body className="min-h-screen grid grid-rows-[auto_1fr_auto]">
+
+      <body className="min-h-screen bg-light text-dark antialiased grid grid-rows-[auto_1fr_auto]">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextIntlClientProvider messages={messages}>
             <Navbar />

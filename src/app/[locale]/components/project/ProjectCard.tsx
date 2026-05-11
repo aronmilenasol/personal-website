@@ -20,47 +20,48 @@ const ProjectCard = ({
   repositoryText,
   projectText,
 }: ProjectCardProps) => {
-  const cardClasses = "bg-lighter p-6 rounded-2xl mb-6 shadow-lg";
-  const titleClasses = "text-2xl font-bold mb-2";
-  const paragraphClasses = "text-lg mb-4";
-  const technologiesClasses =
-    "bg-light text-darker px-2 py-1 rounded-lg mr-2 mb-2";
-  const buttonBaseClasses =
-    "px-4 py-2 rounded-lg mr-2 font-semibold text-md mt-4 inline-block transition-transform transform hover:scale-105";
-  const repositoryButtonClasses = `${buttonBaseClasses} bg-light text-darker flex items-center`;
-  const linkButtonClasses = `${buttonBaseClasses} bg-light text-darker flex items-center`;
-
   return (
-    <div className={cardClasses}>
-      <p className={titleClasses}>{title}</p>
-      <p className={paragraphClasses}>{description}</p>
-      <div className="mt-4 flex flex-wrap">
+    <div className="bg-lighter p-6 mb-8 border border-dark/20 rounded-md">
+      {/* Title */}
+      <p className="text-xl font-medium mb-3 tracking-tight">{title}</p>
+
+      {/* Description */}
+      <p className="text-sm opacity-80 leading-relaxed mb-4">{description}</p>
+
+      {/* Tech stack */}
+      <div className="flex flex-wrap gap-2 mb-4">
         {technologies.map((tech) => (
-          <span key={tech} className={technologiesClasses}>
+          <span
+            key={tech}
+            className="text-xs px-2 py-1 border border-dark/30 rounded-sm opacity-80"
+          >
             {tech}
           </span>
         ))}
       </div>
-      <div className="flex">
+
+      {/* Links */}
+      <div className="flex gap-6 text-sm">
         {repositoryLink && (
           <a
             href={repositoryLink}
-            className={repositoryButtonClasses}
             target="_blank"
             rel="noopener noreferrer"
+            className="flex items-center gap-2 opacity-80 hover:opacity-100 underline underline-offset-4"
           >
-            <FaGithub className="mr-2" />
+            <FaGithub />
             {repositoryText}
           </a>
         )}
+
         {projectLink && (
           <a
             href={projectLink}
-            className={linkButtonClasses}
             target="_blank"
             rel="noopener noreferrer"
+            className="flex items-center gap-2 opacity-80 hover:opacity-100 underline underline-offset-4"
           >
-            <FiExternalLink className="mr-2" />
+            <FiExternalLink />
             {projectText}
           </a>
         )}

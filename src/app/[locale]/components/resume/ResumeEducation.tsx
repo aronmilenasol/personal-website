@@ -1,27 +1,25 @@
 import { useTranslations } from "next-intl";
 
-const paragraphClasses =
-  "text-base sm:text-lg md:text-xl leading-relaxed text-darker mb-4";
-const titleClasses =
-  "font-bold text-2xl sm:text-3xl md:text-4xl mb-4 text-darker flex items-center";
-const educationAreaClasses = "font-bold text-lg sm:text-xl text-darker mb-2";
-const institutionClasses = "font-bold text-2xl sm:text-2xl text-darker mt-4";
-const timelineClasses = "italic text-base sm:text-lg text-darker mb-2";
-
 const ResumeEducation = () => {
   const t = useTranslations("Resume");
+
   return (
-    <div className="mt-6 sm:mt-10">
-      <h3 className={titleClasses}>{t("education-title")}</h3>
-      <div className="bg-lighter rounded-2xl mb-4 sm:mb-6">
-        {/* University of the People */}
-        <p className={institutionClasses}>{t("education1-institution")}</p>
-        <p className={paragraphClasses}>{t("education1-country")}</p>
-        <p className={educationAreaClasses}>{t("education1-area")}</p>
-        <p className={timelineClasses}>{t("education1-timeline")}</p>
-        <p className={paragraphClasses}>{t("education1-description")}</p>
+    <section className="mt-10">
+      <h2 className="text-xl font-medium mb-8 tracking-tight">
+        {t("education-title")}
+      </h2>
+      <div className="mb-10">
+        <p className="font-medium">{t("education1-area")}</p>
+
+        <p className="opacity-90">{t("education1-institution")}</p>
+
+        <p className="text-sm opacity-70 mt-1">{t("education1-country")}</p>
+
+        <p className="text-sm italic opacity-60 mt-1">
+          {t("education1-timeline")}
+        </p>
       </div>
-    </div>
+    </section>
   );
 };
 
