@@ -48,7 +48,7 @@ export default async function Layout({
         `}
       </Script>
 
-      <body className="min-h-screen bg-light text-dark antialiased grid grid-rows-[auto_1fr_auto]">
+      <body className="min-h-screen antialiased grid grid-rows-[auto_1fr_auto]" style={{ backgroundColor: "var(--color-bg)", color: "var(--color-text)" }} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextIntlClientProvider messages={messages}>
             <Navbar />
