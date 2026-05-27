@@ -1,14 +1,23 @@
 "use client";
 
-import { useState } from "react";
-import { FaBars, FaTimes, FaLaptopCode } from "react-icons/fa";
+import { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { useTranslations, useLocale } from "next-intl";
-import { Link } from "@/i18n/routing";
+import { Link, usePathname } from "@/i18n/routing";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 const Navbar = () => {
   const t = useTranslations("Navbar");
   const locale = useLocale();
+  const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const changeLocale = (newLocale: string) => {
     const currentPath = window.location.pathname;
@@ -22,57 +31,97 @@ const Navbar = () => {
     { label: t("blog"), href: "/blog" },
   ];
 
-  const [menuOpen, setMenuOpen] = useState(false);
+  const isActive = (href: string) => pathname === href;
 
   return (
-    <header className="bg-dark text-light border-b border-light/20">
+    <header
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled ? "navbar-scrolled shadow-md" : ""}`}
+      style={{
+        backgroundColor: "var(--color-nav-bg)",
+        color: "var(--color-nav-text)",
+        borderBottom: "1px solid var(--color-nav-border)",
+      }}
+    >
       <nav className="max-w-5xl mx-auto px-6 py-4">
-        <div className="md:hidden flex justify-end">
+        <div className="md:hidden flex items-center justify-between">
+          <Link
+            href="/"
+            locale={locale}
+            className="text-sm font-semibold tracking-widest uppercase transition-opacity"
+            style={{ color: "var(--color-nav-text)" }}
+          >
+            <span style={{ color: "var(--color-accent)" }}>~/</span>milena.sol
+          </Link>
           <button
-            className="text-light"
+            style={{ color: "var(--color-nav-text)" }}
+            className="p-1 transition-colors hover:opacity-80"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
-            {menuOpen ? <FaTimes /> : <FaBars />}
+            {menuOpen ? <FaTimes size={18} /> : <FaBars size={18} />}
           </button>
         </div>
 
         <ul
-          className={`flex flex-col md:flex-row items-center gap-8 md:gap-10 ${
-            menuOpen ? "flex" : "hidden"
-          } md:flex`}
+          className={`flex-col md:flex-row items-center gap-6 md:gap-8 ${menuOpen ? "flex mt-4 md:mt-0" : "hidden"
+            } md:flex`}
         >
-          <li>
+          <li className="hidden md:block mr-auto">
             <Link
               href="/"
               locale={locale}
-              className="text-xl font-medium tracking-wide flex items-center gap-2 hover:opacity-80"
+              className="text-sm font-semibold tracking-widest uppercase transition-opacity hover:opacity-80 flex items-center gap-1"
+              style={{ color: "var(--color-nav-text)" }}
             >
-              Milena Sol Aron
-              <FaLaptopCode className="text-sm opacity-70" />
+              <span style={{ color: "var(--color-accent)", fontWeight: 700 }}>~/</span>
+              milena.sol
             </Link>
           </li>
-          <div className="flex flex-col md:flex-row items-center gap-6 mx-auto">
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  locale={locale}
-                  className="relative opacity-90 hover:opacity-100 after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-px after:bg-light after:transition-all hover:after:w-full"
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </div>
+          {navLinks.map((link) => (
+            <li key={link.href}>
+              <Link
+                href={link.href}
+                locale={locale}
+                className="text-sm tracking-wide transition-colors link-retro"
+                style={{
+                  color: isActive(link.href)
+                    ? "var(--color-accent)"
+                    : "var(--color-nav-text)",
+                  opacity: isActive(link.href) ? 1 : 0.75,
+                }}
+              >
+                {isActive(link.href) && (
+                  <span style={{ color: "var(--color-accent)", marginRight: "4px" }}>›</span>
+                )}
+                {link.label}
+              </Link>
+            </li>
+          ))}
+          <li className="hidden md:block h-4 w-px" style={{ background: "var(--color-nav-border)" }} />
           <li>
             <button
               onClick={() => changeLocale(locale === "en" ? "es" : "en")}
-              className="opacity-80 hover:opacity-100 underline-offset-4 hover:underline"
+              className="text-xs tracking-widest transition-all rounded-sm px-2 py-1 hover:opacity-100"
+              style={{
+                color: "var(--color-nav-text)",
+                opacity: 0.6,
+                border: "1px solid var(--color-nav-border)",
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLElement).style.color = "var(--color-accent)";
+                (e.currentTarget as HTMLElement).style.borderColor = "var(--color-accent)";
+                (e.currentTarget as HTMLElement).style.opacity = "1";
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLElement).style.color = "var(--color-nav-text)";
+                (e.currentTarget as HTMLElement).style.borderColor = "var(--color-nav-border)";
+                (e.currentTarget as HTMLElement).style.opacity = "0.6";
+              }}
             >
               {locale === "en" ? "ES" : "EN"}
             </button>
           </li>
+
           <li>
             <ThemeSwitcher />
           </li>

@@ -7,26 +7,37 @@ const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return <div className="w-8 h-8" />;
 
   const currentTheme = theme === "system" ? systemTheme : theme;
   const isDark = currentTheme === "dark";
 
   return (
-    <div className="p-2">
-      <button
-        onClick={() => setTheme(isDark ? "light" : "dark")}
-        type="button"
-        className="bg-light text-dark font-bold py-2 px-4 rounded-full shadow-md hover:bg-lighter hover:shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1"
-        aria-label="Toggle Theme"
-      >
-        {isDark ? <Sun size={20} /> : <Moon size={20} />}
-      </button>
-    </div>
+    <button
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      type="button"
+      className="w-8 h-8 flex items-center justify-center rounded-sm transition-all"
+      style={{
+        color: "var(--color-nav-text)",
+        border: "1px solid var(--color-nav-border)",
+        opacity: 0.65,
+      }}
+      onMouseEnter={(e) => {
+        (e.currentTarget as HTMLElement).style.color = "var(--color-accent)";
+        (e.currentTarget as HTMLElement).style.borderColor = "var(--color-accent)";
+        (e.currentTarget as HTMLElement).style.opacity = "1";
+      }}
+      onMouseLeave={(e) => {
+        (e.currentTarget as HTMLElement).style.color = "var(--color-nav-text)";
+        (e.currentTarget as HTMLElement).style.borderColor = "var(--color-nav-border)";
+        (e.currentTarget as HTMLElement).style.opacity = "0.65";
+      }}
+      aria-label="Toggle Theme"
+      title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+    >
+      {isDark ? <Sun size={14} /> : <Moon size={14} />}
+    </button>
   );
 };
 
