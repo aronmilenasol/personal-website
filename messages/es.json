@@ -2,12 +2,12 @@
   "Homepage": {
     "welcome": "¡Bienvenido a mi sitio web!",
     "name": "Soy Milena Sol Aron",
-    "role": "Desarrolladora de software - DevOps & SRE",
+    "role": "Desarrolladora de software - DevOps & SRE - Escritora",
     "button": "Contacto"
   },
   "About": {
     "about-title": "Sobre mí",
-    "introduction": "Desarrolladora de software con un perfil híbrido que combina desarrollo Full Stack y prácticas de DevOps/SRE. Construyo y mantengo sistemas escalables y confiables, contribuyendo tanto en su desarrollo como en infraestructura y automatización. Poseo experiencia trabajando en entornos de producción con usuarios reales (+30.000), con capacidad para moverme entre frontend, backend e infraestructura según las necesidades del proyecto.",
+    "introduction": "Desarrolladora de software con un perfil híbrido que combina desarrollo Full Stack y prácticas de DevOps/SRE. Diseño, construyo y mantengo sistemas escalables y confiables, contribuyendo en desarrollo de software, infraestructura y automatización. Hablante nativa de español con nivel de inglés C2.\n\nCuento con experiencia trabajando en entornos productivos con más de 30.000 usuarios, y me desenvuelvo con comodidad entre frontend, backend e infraestructura según las necesidades del proyecto. Además, tengo una sólida base en Linux, utilizándolo como mi único sistema operativo desde 2015.\n\nMe interesa especialmente el desarrollo de prácticas de ingeniería sostenibles y eficientes que optimicen tanto el impacto ambiental como los costos de los proyectos.\n\nEn paralelo, soy escritora en inglés y español, y fundadora de Voxades, un proyecto editorial independiente donde escribo, edito y gestiono mis propias publicaciones. Mi trabajo abarca ciencia ficción, fantasía, ecología y poesía. Además, desarrollo contenido técnico vinculado a la ingeniería de software. Esta faceta creativa y analítica fortalece mi carrera en tecnología al potenciar mis habilidades de comunicación, narrativa y documentación, así como mi capacidad para abordar problemas desde múltiples perspectivas.",
     "contact": "Contacto",
     "contact-description": "Podés encontrarme en:",
     "about-website-title": "Sobre este sitio web",
@@ -83,6 +83,9 @@
     "project3-title": "CarreraIT",
     "project3-description": "Plataforma web para personas interesadas o que trabajan en IT.",
     "project3-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel",
+    "project4-title": "Voxades",
+    "project4-description": "Mi sitio web de publicación de libros donde escribo, edito y gestiono mis propias publicaciones.",
+    "project4-technologies": "Next.js, TypeScript, React.js, Tailwind CSS",
     "repository": "Repositorio",
     "link": "Enlace"
   },

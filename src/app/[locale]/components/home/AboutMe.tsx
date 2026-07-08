@@ -14,13 +14,20 @@ const AboutMe = () => {
         <div className="fade-in-up fade-in-up-1">
           <h2 className="section-title mb-6">{t("about-title")}</h2>
           <div className="terminal-card rounded-md p-8 space-y-4">
-            <p className="text-base leading-loose" style={{ color: "var(--color-text)" }}>
-              {t("introduction")}
-            </p>
+            {t("introduction")
+              .split("\n\n")
+              .map((paragraph, index) => (
+                <p
+                  key={index}
+                  className="text-base leading-loose"
+                  style={{ color: "var(--color-text)" }}
+                >
+                  {paragraph}
+                </p>
+              ))}
           </div>
         </div>
         <div className="fade-in-up fade-in-up-3 grid grid-cols-1 md:grid-cols-2 gap-6">
-
           <div>
             <h2 className="section-title mb-6">{t("contact")}</h2>
             <div className="terminal-card rounded-md p-6 space-y-4">
@@ -61,7 +68,10 @@ const AboutMe = () => {
           <div>
             <h2 className="section-title mb-6">{t("about-website-title")}</h2>
             <div className="terminal-card rounded-md p-6 space-y-4">
-              <p className="text-sm leading-relaxed" style={{ color: "var(--color-muted)" }}>
+              <p
+                className="text-sm leading-relaxed"
+                style={{ color: "var(--color-muted)" }}
+              >
                 {t("about-website-technologies")}
               </p>
               <a
@@ -77,7 +87,6 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

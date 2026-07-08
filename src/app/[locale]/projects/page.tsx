@@ -24,6 +24,12 @@ export default function Projects() {
       repositoryLink: "https://github.com/aronmilenasol/carrerait-roadmap",
       projectLink: "https://carrerait.vercel.app",
     },
+    {
+      title: t("project4-title"),
+      description: t("project4-description"),
+      technologies: t("project4-technologies").split(","),
+      projectLink: "https://voxades.com",
+    },
   ];
 
   return (
@@ -32,15 +38,19 @@ export default function Projects() {
       style={{ backgroundColor: "var(--color-bg)" }}
     >
       <div className="max-w-3xl mx-auto">
-
         {/* Header */}
         <div className="mb-12 fade-in-up fade-in-up-1">
           <p className="text-xs mb-2" style={{ color: "var(--color-faint)" }}>
-            <span style={{ color: "var(--color-accent)", fontWeight: 700 }}>milena@portfolio</span>
+            <span style={{ color: "var(--color-accent)", fontWeight: 700 }}>
+              milena@portfolio
+            </span>
             <span>:~ $ </span>
             <span>ls projects/</span>
           </p>
-          <h1 className="section-title text-3xl md:text-4xl" style={{ fontSize: "" }}>
+          <h1
+            className="section-title text-3xl md:text-4xl"
+            style={{ fontSize: "" }}
+          >
             {t("projects-title")}
           </h1>
         </div>

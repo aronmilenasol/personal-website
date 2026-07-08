@@ -2,12 +2,12 @@
   "Homepage": {
     "welcome": "Welcome to my website!",
     "name": "I'm Milena Sol Aron",
-    "role": "Software Developer - DevOps & SRE",
+    "role": "Software Developer - DevOps & SRE - Writer",
     "button": "Contact"
   },
   "About": {
     "about-title": "About Me",
-    "introduction": "Software Developer with a hybrid profile combining Full Stack development and DevOps/SRE practices. I build and maintain scalable, reliable systems, contributing across software development, infrastructure, and automation. Experienced working in production environments with real users (30,000+), I’m comfortable moving between frontend, backend, and infrastructure depending on project needs. I have a strong Linux background, using it as my primary operating system since 2015.",
+    "introduction": "Software Developer with a hybrid profile that combines Full Stack development and DevOps/SRE practices. I design, build, and maintain scalable and reliable systems, contributing to software development, infrastructure, and automation. Native Spanish speaker with C2 English proficiency.\n\nI have experience working in production environments with over 30,000 users, and I am comfortable moving between frontend, backend, and infrastructure depending on project needs. Additionally, I have a strong Linux background, using it as my only operating system since 2015.\n\nI am particularly interested in the development of sustainable and efficient engineering practices that optimize both environmental impact and project costs.\n\nIn parallel, I am a writer in English and Spanish, and the founder of Voxades, an independent publishing project where I write, edit, and manage my own publications. My work spans science fiction, fantasy, ecology, and poetry. Additionally, I develop technical content related to software engineering. This creative and analytical facet strengthens my career in technology by enhancing my communication, storytelling, and documentation skills, as well as my ability to approach problems from multiple perspectives.",
     "contact": "Contact",
     "contact-description": "You can find me at:",
     "about-website-title": "About this website",
@@ -83,6 +83,9 @@
     "project3-title": "CarreraIT",
     "project3-description": "Web platform for people interested or working in IT.",
     "project3-technologies": "Next.js, TypeScript, React.js, Tailwind CSS, Vercel",
+    "project4-title": "Voxades",
+    "project4-description": "My book publishing website where I write, edit, and manage my own publications.",
+    "project4-technologies": "Next.js, TypeScript, React.js, Tailwind CSS",
     "repository": "Repository",
     "link": "Link"
   },
