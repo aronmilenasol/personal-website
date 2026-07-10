@@ -10,7 +10,6 @@ interface Role {
 interface Job {
   company: string;
   location: string;
-  totalDuration?: string;
   roles: Role[];
 }
 
@@ -18,7 +17,6 @@ const jobs: Job[] = [
   {
     company: "job3-company",
     location: "job3-location",
-    totalDuration: "job3-total-duration",
     roles: [
       {
         role: "job3-role-1",
@@ -27,6 +25,8 @@ const jobs: Job[] = [
           "job3-responsibility-1-1",
           "job3-responsibility-1-2",
           "job3-responsibility-1-3",
+          "job3-responsibility-1-4",
+          "job3-responsibility-1-5",
         ],
       },
       {
@@ -36,7 +36,6 @@ const jobs: Job[] = [
           "job3-responsibility-2-1",
           "job3-responsibility-2-2",
           "job3-responsibility-2-3",
-          "job3-responsibility-2-4",
         ],
       },
     ],
@@ -62,9 +61,6 @@ const jobs: Job[] = [
         responsibilities: [
           "job1-responsibility-1",
           "job1-responsibility-2",
-          "job1-responsibility-3",
-          "job1-responsibility-4",
-          "job1-responsibility-5",
         ],
       },
     ],
@@ -94,11 +90,6 @@ const ResumeExperience = () => {
               <span className="flex items-center gap-1.5">
                 <MapPin size={11} />{t(job.location)}
               </span>
-              {job.totalDuration && (
-                <span className="flex items-center gap-1.5">
-                  <Calendar size={11} />{t(job.totalDuration)}
-                </span>
-              )}
             </div>
             <div className="space-y-6">
               {job.roles.map((role, roleIndex) => (
