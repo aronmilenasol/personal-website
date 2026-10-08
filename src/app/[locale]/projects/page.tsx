@@ -30,6 +30,13 @@ export default function Projects() {
       technologies: t("project4-technologies").split(","),
       projectLink: "https://voxades.com",
     },
+    {
+      title: t("project5-title"),
+      description: t("project5-description"),
+      technologies: t("project5-technologies").split(","),
+      repositoryLink: "https://github.com/aronmilenasol/entre-sierras",
+      projectLink: "https://entre-sierras.vercel.app",
+    },
   ];
 
   return (
