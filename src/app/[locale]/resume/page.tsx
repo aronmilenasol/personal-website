@@ -44,6 +44,12 @@ export default function Resume() {
                   {paragraph}
                 </p>
               ))}
+            <p
+              className="border-l-2 pl-3 text-sm leading-relaxed"
+              style={{ borderColor: "var(--color-accent)", color: "var(--color-muted)" }}
+            >
+              {t("availability")}
+            </p>
           </div>
         </div>
         <div className="fade-in-up fade-in-up-3 terminal-card rounded-md p-8 md:p-10">
