@@ -80,6 +80,9 @@
     "project4-title": "Voxades",
     "project4-description": "My book publishing website where I write, edit, and manage my own publications.",
     "project4-technologies": "Next.js, TypeScript, React.js, Tailwind CSS",
+    "project5-title": "Entre Sierras",
+    "project5-description": "Explore localities across San Luis and Córdoba, Argentina.",
+    "project5-technologies": "Python, FastAPI, Uvicorn, React, TypeScript, Vite, Axios",
     "repository": "Repository",
     "link": "Link"
   },
