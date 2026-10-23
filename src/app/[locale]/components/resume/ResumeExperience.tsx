@@ -28,6 +28,7 @@ const jobs: Job[] = [
           "job3-responsibility-1-4",
           "job3-responsibility-1-5",
           "job3-responsibility-1-6",
+          "job3-responsibility-1-7",
         ],
       },
     ],
